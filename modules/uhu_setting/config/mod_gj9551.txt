@@ -1,0 +1,144 @@
+9
+
+gj9551_1
+插件安装位置
+默认home | top | foot
+
+false
+
+
+9
+
+gj9551_2
+框架所占的格子数
+取值范围0-12
+12
+false
+
+
+9
+
+gj9551_3
+单个广告所占的格子数
+取值范围0-12
+4
+false
+
+
+1
+
+gj9551_4
+多语言支持
+取值为en|fr|es|de
+false
+true
+Multi-language
+Multi-languages: lang1|lang2|lang3, such as en|fr|es|de
+2
+
+gj9551_5
+第一幅广告图名称
+直接使用文件名，带上后缀
+http://prestashop.uhupage.com/theme_188/modules/uhu_setting/images/gj9551/370x490.jpg
+true
+Image for ad 1
+Image filename you upload below or the img url in the web, Multi-languages: file for lang1|file for lang2|file for lang3
+2
+
+gj9551_6
+第一幅广告图链接
+
+
+true
+link for ad 1
+
+3
+
+gj9551_7
+第二幅广告图名称
+直接使用文件名，带上后缀
+http://prestashop.uhupage.com/theme_188/modules/uhu_setting/images/gj9551/370x230_8.jpg
+true
+Image for ad 2
+Image filename you upload below or the img url in the web, Multi-languages: file for lang1|file for lang2|file for lang3
+3
+
+gj9551_8
+第二幅广告图链接
+
+
+true
+link for ad 2
+
+4
+
+gj9551_9
+第三幅广告图名称
+直接使用文件名，带上后缀
+http://prestashop.uhupage.com/theme_188/modules/uhu_setting/images/gj9551/370x230_1.jpg
+true
+Image for ad 3
+Image filename you upload below or the img url in the web, Multi-languages: file for lang1|file for lang2|file for lang3
+4
+
+gj9551_10
+第三幅广告图链接
+
+
+true
+link for ad 3
+
+5
+
+gj9551_11
+第四幅广告图名称
+直接使用文件名，带上后缀
+http://prestashop.uhupage.com/theme_188/modules/uhu_setting/images/gj9551/370x230_2.jpg
+true
+Image for ad 4
+Image filename you upload below or the img url in the web, Multi-languages: file for lang1|file for lang2|file for lang3
+5
+
+gj9551_12
+第四幅广告图链接
+
+
+true
+link for ad 4
+
+6
+
+gj9551_13
+第五幅广告图名称
+直接使用文件名，带上后缀
+http://prestashop.uhupage.com/theme_188/modules/uhu_setting/images/gj9551/370x230_7.jpg
+true
+Image for ad 5
+Image filename you upload below or the img url in the web, Multi-languages: file for lang1|file for lang2|file for lang3
+6
+
+gj9551_14
+第五幅广告图链接
+
+
+true
+link for ad 5
+
+0
+
+gj9551_15
+是否启用本插件
+yes|no
+yes
+true
+Enable This Module
+yes|no
+1
+
+gj9551_16
+特效
+no|zoom
+downimg
+true
+CSS3 effects
+no|zoom

@@ -1,0 +1,22 @@
+
+[{shop_url}] 
+
+Ваше сообщение в службу поддержки
+клиентов {shop_name} 
+
+Ваше сообщение было успешно
+отправлено.
+
+СООБЩЕНИЕ: {message}
+
+НОМЕР ЗАКАЗА: {order_name}
+
+ТОВАР: {product_name}
+
+ПРИКРЕПЛЕННЫЙ ФАЙЛ: {attached_file} 		 
+
+Мы ответим как можно скорее. 
+
+{shop_name} [{shop_url}] работает на
+PrestaShop(tm) [http://www.prestashop.com/] 
+

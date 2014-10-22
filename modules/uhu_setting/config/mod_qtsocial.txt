@@ -1,0 +1,225 @@
+23
+
+qtsocial_1
+框架所占的格子数
+取值范围0-12
+3
+
+
+
+1
+
+qtsocial_2
+社交网站数量
+取值范围1-10
+5
+true
+Number of social
+1 - 10
+2
+
+qtsocial_3
+图标动画类型
+取值范围spin | scale | translate
+spin
+true
+Effects
+spin | scale | translate
+3
+
+qtsocial_4
+第一社交网图标
+
+facebook.png
+true
+Filename for Icon 1
+
+4
+
+qtsocial_5
+第二社交网图标
+
+twitter.png
+true
+Filename for Icon 2
+
+5
+
+qtsocial_6
+第三社交网图标
+
+googleplus.png
+true
+Filename for Icon 3
+
+6
+
+qtsocial_7
+第四社交网图标
+
+linkedin.png
+true
+Filename for Icon 4
+
+7
+
+qtsocial_8
+第五社交网图标
+
+pinterest.png
+true
+Filename for Icon 5
+
+8
+
+qtsocial_9
+第六社交网图标
+
+
+true
+Filename for Icon 6
+
+9
+
+qtsocial_10
+第七社交网图标
+
+
+true
+Filename for Icon 7
+
+10
+
+qtsocial_11
+第八社交网图标
+
+
+true
+Filename for Icon 8
+
+11
+
+qtsocial_12
+第九社交网图标
+
+
+true
+Filename for Icon 9
+
+12
+
+qtsocial_13
+第十社交网图标
+
+
+true
+Filename for Icon 10
+
+13
+
+qtsocial_14
+第一社交网链接
+
+
+true
+Link for Icon 1
+
+14
+
+qtsocial_15
+第二社交网链接
+
+
+true
+Link for Icon 2
+
+15
+
+qtsocial_16
+第三社交网链接
+
+
+true
+Link for Icon 3
+
+16
+
+qtsocial_17
+第四社交网链接
+
+
+true
+Link for Icon 4
+
+17
+
+qtsocial_18
+第五社交网链接
+
+
+true
+Link for Icon 5
+
+18
+
+qtsocial_19
+第六社交网链接
+
+
+true
+Link for Icon 6
+
+19
+
+qtsocial_20
+第七社交网链接
+
+
+true
+Link for Icon 7
+
+20
+
+qtsocial_21
+第八社交网链接
+
+
+true
+Link for Icon 8
+
+21
+
+qtsocial_22
+第九社交网链接
+
+
+true
+Link for Icon 9
+
+22
+
+qtsocial_23
+第十社交网链接
+
+
+true
+Link for Icon 10
+
+0
+
+qtsocial_24
+是否启用本插件
+yes|no
+yes
+true
+Enable This Module
+yes|no
+0
+
+qtsocial_25
+插件安装位置
+footer|FooterNav
+footer
+
+
+

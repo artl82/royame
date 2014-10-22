@@ -1,0 +1,81 @@
+0
+
+cms_0
+是否启用本插件
+yes|no
+yes
+true
+Enable This Module
+yes|no
+4
+
+cms_1
+框架所占的格子数
+取值范围0-12
+12
+
+
+
+1
+
+cms_2
+cms page
+直接输入分类的ID，用英文逗号分开，不加空格
+3,4,5
+true
+CMS page
+Set CMS ID, separated by commas (e.g. 3,4,5)
+3
+
+cms_3
+footer_text
+footer text
+
+true
+footer text
+
+2
+
+cms_4
+store
+yes|no
+yes
+true
+Display 'our stores' link
+yes|no
+2
+
+cms_5
+special
+
+no
+true
+Display 'Special' link
+yes|no
+2
+
+cms_6
+New
+
+no
+true
+Display 'New products' link
+yes|no
+2
+
+cms_7
+Best
+
+no
+true
+Display 'Top sellers' link
+yes|no
+4
+
+cms_8
+位置
+footer|FooterBanner
+FooterBanner
+
+
+

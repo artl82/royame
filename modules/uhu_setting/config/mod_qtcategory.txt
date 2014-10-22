@@ -1,0 +1,27 @@
+0
+
+qtcategory
+框架所占的格子数
+取值范围0-12
+
+flase
+
+
+1
+
+qtcategory2
+热门分类推荐
+直接输入分类的ID，用英文逗号分开，不加空格
+qtcategory3
+true
+Hot Categories
+Set ID category, separated by commas (e.g. 3,4,5)
+2
+
+qtcategory3
+是否启用本插件
+yes|no
+
+true
+Enable This Module
+yes|no

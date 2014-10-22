@@ -1,0 +1,117 @@
+10
+
+xp9502_1
+框架所占的格子数
+取值范围0-12
+12
+
+
+
+1
+
+xp9502_2
+全部产品数量
+设计全部要显示的产品数
+10
+true
+Total of product to show
+
+1
+
+xp9502_3
+自动播放
+true|false
+true
+true
+Auto Play
+true|false
+7
+
+xp9502_4
+最多可显示的产品数
+此值为可见的产品数量
+4
+
+
+
+8
+
+xp9502_5
+产品框的间距
+此值为产品间的左外空，不包括单位
+30
+
+
+
+9
+
+xp9502_6
+产品框的宽度
+此值为产品框的宽度，不包括单位，产品图片的大小可由设置图片框的外空调节
+270
+
+
+
+2
+
+xp9502_7
+小图案类型
+取值为 circle | bookmark | certificate | cloud | comment | flag | heart | star | tag | trophy
+
+true
+Type of label
+circle | bookmark | certificate | cloud | comment | flag | heart | star | tag | trophy
+0
+
+xp9502_8
+是否启用本插件
+yes|no
+yes
+true
+Enable This Module
+
+11
+
+xp9502_9
+动态效果定义
+rollup|rolldown|rollleft
+rollleft
+
+
+
+3
+
+xp9502_10
+标题图标定义
+取值为所有Font Awesome 3.0图标
+
+true
+Icon for Block Title
+icon-asterisk|icon-star, all icon in Font Awesome 3.0
+4
+
+xp9502_11
+左边箭头图标定义
+取值为所有Font Awesome 3.0图标
+icon-caret-left
+true
+Prev control
+icon-angle-left,  all icon in Font Awesome 3.x
+5
+
+xp9502_12
+右边箭头图标定义
+取值为所有Font Awesome 3.0图标
+icon-caret-right
+true
+Next control
+icon-angle-right,  all icon in Font Awesome 3.x
+12
+
+xp9502_13
+标题位置
+top|bottom
+
+
+
+

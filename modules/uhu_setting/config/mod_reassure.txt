@@ -1,0 +1,189 @@
+1
+
+reassure_1
+框架所占的格子数
+取值范围0-12
+12
+true
+Grid for this block
+0 - 12
+2
+
+reassure_2
+每栏目所占的格子数
+取值范围0-12
+3
+true
+Grid for each item
+
+3
+
+reassure_3
+广告图数量
+取值范围1-5
+4
+true
+Number of icons
+
+4
+
+reassure_4
+图标或图片
+取值为true和false
+true
+true
+Icon or Image
+true for icon in Font Awesome 3.2, false for image upload
+5
+
+reassure_5
+第一幅图名称
+直接使用文件名，带上后缀
+icon-money
+true
+Name 1
+File name upload  or Icon name in Font Awesome 3.2
+6
+
+reassure_6
+第二幅图名称
+直接使用文件名，带上后缀
+icon-credit-card
+true
+Name 2
+File name upload  or Icon name in Font Awesome 3.2
+7
+
+reassure_7
+第三幅图名称
+直接使用文件名，带上后缀
+icon-truck
+true
+Name 3
+File name upload  or Icon name in Font Awesome 3.2
+8
+
+reassure_8
+第四幅图名称
+直接使用文件名，带上后缀
+icon-lock
+true
+Name 4
+File name upload  or Icon name in Font Awesome 3.2
+9
+
+reassure_9
+第五幅图名称
+直接使用文件名，带上后缀
+
+true
+Name 5
+File name upload  or Icon name in Font Awesome 3.2
+10
+
+reassure_10
+第一幅图链接
+点击图片跳转的链接
+
+true
+Link 1
+
+11
+
+reassure_11
+第二幅图链接
+点击图片跳转的链接
+
+true
+Link 2
+
+12
+
+reassure_12
+第三幅图链接
+点击图片跳转的链接
+
+true
+Link 3
+
+13
+
+reassure_13
+第四幅图链接
+点击图片跳转的链接
+
+true
+Link 4
+
+14
+
+reassure_14
+第五幅图链接
+点击图片跳转的链接
+
+true
+Link 5
+
+15
+
+reassure_15
+第一幅图名称
+
+Money back guarantee
+true
+Title 1
+
+16
+
+reassure_16
+第二幅图名称
+
+Payment upon shipment.
+true
+Title 2
+
+17
+
+reassure_17
+第三幅图名称
+
+Free Shipping over $99.
+true
+Title 3
+
+18
+
+reassure_18
+第四幅图名称
+
+100% secure payment.
+true
+Title 4
+
+19
+
+reassure_19
+第五幅图名称
+
+
+true
+Title 5
+
+0
+
+reassure_20
+是否启用本插件
+yes|no
+yes
+true
+Enable This Module
+yes|no
+0
+
+reassure_21
+插件位置
+footer|FooterNav|FooterBanner
+FooterNav
+
+
+

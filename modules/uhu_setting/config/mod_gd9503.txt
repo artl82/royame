@@ -1,0 +1,900 @@
+0
+
+gd9503_0
+框架所占的格子数
+取值范围0-12
+12
+false
+
+
+1
+
+gd9503_1
+插件安装位置
+取值为top和home
+home
+false
+
+
+2
+
+gd9503_2
+动态广告图数量
+默认定义五幅动态广告
+3
+
+
+
+3
+
+gd9503_3
+动态广告切换速度
+0为静止
+0
+true
+Speed
+The speed of the transition effect in milliseconds.
+4
+
+gd9503_4
+是否启用本插件
+yes|no
+no
+true
+Enable This Module
+yes|no
+5
+
+gd9503_5
+多语言
+en|fr|es
+
+true
+Multi-language
+Multi-languages: lang1|lang2|lang3, such as en|fr|es|de
+6
+
+gd9503_6
+上一幅图标
+取值为 angle-left | double-angle-left | arrow-left | caret-left | chevron-left | circle-arrow-left | hand-left
+angle-left
+true
+Prev control
+angle-left | double-angle-left | arrow-left | caret-left | chevron-left | circle-arrow-left | hand-left
+7
+
+gd9503_7
+下一幅图标
+取值为 angle-right | double-angle-right | arrow-right | caret-right | chevron-right | circle-arrow-right | hand-right
+angle-right
+true
+Next control
+angle-right | double-angle-right | arrow-right | caret-right | chevron-right | circle-arrow-right | hand-right
+8
+
+gd9503_8
+
+
+
+
+
+
+9
+
+gd9503_9
+
+
+
+
+
+
+10
+
+gd9503_10
+第一幅广告是否可见
+值为true|false
+true
+ture
+Slider 1: Displayed
+true|false
+11
+
+gd9503_11
+图片名称
+直接使用文件名，带上后缀
+http://prestashop.uhupage.com/theme_188/modules/uhu_setting/images/gd9503/slider_31.jpg
+true
+Image for Slider 1
+Image filename you upload below or the img url in the web
+12
+
+gd9503_12
+广告标题
+
+Winteraceae
+true
+Title
+title for Slider 1, Multi-languages: text for lang1|text for lang2|text for lang3
+13
+
+gd9503_13
+颜色
+#000000 - #FFFFFF
+#000
+
+
+
+14
+
+gd9503_14
+字体
+font代码格式，大小 行距 字体，如normal 11px/14px Arial, Verdana, sans-serif
+bold 3vw/3vw Impact LT Std
+true
+Font
+Title font for Slider 1, such as: normal 11px/14px Arial, Verdana, sans-serif
+15
+
+gd9503_15
+位置上
+显示位置 | 起始位置，包括单位px或%
+47%|47%
+true
+Top
+after|before, title position for Slider 1, must include px or %
+16
+
+gd9503_16
+位置左
+显示位置 | 起始位置，包括单位px或%
+26%|66%
+true
+Left
+after|before, title position for Slider 1, must include px or %
+17
+
+gd9503_17
+广告正文
+
+New arrival
+true
+Text
+text for Slider 1, Multi-languages: text for lang1|text for lang2|text for lang3
+18
+
+gd9503_18
+颜色
+#000000 - #FFFFFF
+#000
+
+
+
+19
+
+gd9503_19
+字体
+font代码格式，大小 行距 字体，如normal 11px/14px Arial, Verdana, sans-serif
+normal 1.2vw/1.3vw Arial, Verdana, sans-serif
+true
+Font
+Text font for Slider 1, such as: normal 11px/14px Arial, Verdana, sans-serif
+20
+
+gd9503_20
+位置上
+显示位置 | 起始位置，包括单位px或%
+37%|37%
+true
+Top
+after|before, text position for Slider 1, must include px or %
+21
+
+gd9503_21
+位置左
+显示位置 | 起始位置，包括单位px或%
+26%|6%
+true
+Left
+after|before, text position for Slider 1, must include px or %
+22
+
+gd9503_22
+品牌图片
+直接使用文件名，带上后缀
+
+true
+Logo
+logo file name for Slider 1,, Multi-languages: file for lang1|file for lang2|file for lang3
+23
+
+gd9503_23
+位置上
+显示位置 | 起始位置，包括单位px或%
+
+true
+Top
+after|before, logo position for Slider 1, must include px or %
+24
+
+gd9503_24
+位置左
+显示位置 | 起始位置，包括单位px或%
+
+true
+Left
+after|before, logo position for Slider 1, must include px or %
+25
+
+gd9503_25
+链接文字
+
+ONLY $99.00
+true
+Link
+link text for Slider 1, Multi-languages: text for lang1|text for lang2|text for lang3
+26
+
+gd9503_26
+颜色
+#000000 - #FFFFFF
+
+
+
+
+27
+
+gd9503_27
+字体
+font代码格式，大小 行距 字体，如normal 11px/14px Arial, Verdana, sans-serif
+normal 1vwx/1vw verdana, Arial
+true
+Font
+Link font for Slider 1, such as: normal 11px/14px Arial, Verdana, sans-serif
+28
+
+gd9503_28
+位置上
+显示位置 | 起始位置，包括单位px或%
+65%|85%
+true
+Top
+after|before, Link position for Slider 1, must include px or %
+29
+
+gd9503_29
+位置左
+显示位置 | 起始位置，包括单位px或%
+35%|35%
+true
+Left
+after|before, Link position for Slider 1, must include px or %
+30
+
+gd9503_30
+链接
+
+
+true
+Url
+link url for Slider 1
+31
+
+gd9503_31
+
+
+
+
+
+
+32
+
+gd9503_32
+
+
+
+
+
+
+33
+
+gd9503_33
+
+
+
+
+
+
+34
+
+gd9503_34
+
+
+
+
+
+
+35
+
+gd9503_35
+
+
+
+
+
+
+36
+
+gd9503_36
+
+
+
+
+
+
+37
+
+gd9503_37
+
+
+
+
+
+
+38
+
+gd9503_38
+
+
+
+
+
+
+39
+
+gd9503_39
+
+
+
+
+
+
+40
+
+gd9503_40
+第二幅广告是否可见
+值为true|false
+true
+ture
+Slider 2: Displayed
+true|false
+41
+
+gd9503_41
+图片名称
+直接使用文件名，带上后缀
+http://prestashop.uhupage.com/theme_188/modules/uhu_setting/images/gd9503/slider_32.jpg
+true
+Image for Slider 2
+Image filename you upload below or the img url in the web
+42
+
+gd9503_42
+广告标题
+
+Winteraceae
+true
+Title
+title for Slider 2, Multi-languages: text for lang1|text for lang2|text for lang3
+43
+
+gd9503_43
+颜色
+#000000 - #FFFFFF
+#000
+
+
+
+44
+
+gd9503_44
+字体
+font代码格式，大小 行距 字体，如normal 11px/14px Arial, Verdana, sans-serif
+bold 3vw/3vw Impact LT Std
+true
+Font
+Title font for Slider 2, such as: normal 11px/14px Arial, Verdana, sans-serif
+45
+
+gd9503_45
+位置上
+显示位置 | 起始位置，包括单位px或%
+47%|47%
+true
+Top
+after|before, title position for Slider 2, must include px or %
+46
+
+gd9503_46
+位置左
+显示位置 | 起始位置，包括单位px或%
+26%|66%
+true
+Left
+after|before, title position for Slider 2, must include px or %
+47
+
+gd9503_47
+广告正文
+
+New arrival
+true
+Text
+text for Slider 2, Multi-languages: text for lang1|text for lang2|text for lang3
+48
+
+gd9503_48
+颜色
+#000000 - #FFFFFF
+#000
+
+
+
+49
+
+gd9503_49
+字体
+font代码格式，大小 行距 字体，如normal 11px/14px Arial, Verdana, sans-serif
+normal 1vw/1.3vw Arial, Verdana, sans-serif
+true
+Font
+Text font for Slider 2, such as: normal 11px/14px Arial, Verdana, sans-serif
+50
+
+gd9503_50
+位置上
+显示位置 | 起始位置，包括单位px或%
+37%|37%
+true
+Top
+after|before, text position for Slider 2, must include px or %
+51
+
+gd9503_51
+位置左
+显示位置 | 起始位置，包括单位px或%
+26%|6%
+true
+Left
+after|before, text position for Slider 2, must include px or %
+52
+
+gd9503_52
+品牌图片
+直接使用文件名，带上后缀, Multi-languages: file for lang1|file for lang2|file for lang3
+
+true
+Logo
+logo file name for Slider 1
+53
+
+gd9503_53
+位置上
+显示位置 | 起始位置，包括单位px或%
+
+true
+Top
+after|before, logo position for Slider 2, must include px or %
+54
+
+gd9503_54
+位置左
+显示位置 | 起始位置，包括单位px或%
+
+true
+Left
+after|before, logo position for Slider 2, must include px or %
+55
+
+gd9503_55
+链接文字
+
+ONLY $99.00
+true
+Link
+link text for Slider 2, Multi-languages: text for lang1|text for lang2|text for lang3
+56
+
+gd9503_56
+颜色
+#000000 - #FFFFFF
+
+
+
+
+57
+
+gd9503_57
+字体
+font代码格式，大小 行距 字体，如normal 11px/14px Arial, Verdana, sans-serif
+
+true
+Font
+Link font for Slider 2, such as: normal 11px/14px Arial, Verdana, sans-serif
+58
+
+gd9503_58
+位置上
+显示位置 | 起始位置，包括单位px或%
+65%|85%
+true
+Top
+after|before, Link position for Slider 2, must include px or %
+59
+
+gd9503_59
+位置左
+显示位置 | 起始位置，包括单位px或%
+35%|35%
+true
+Left
+after|before, Link position for Slider 2, must include px or %
+60
+
+gd9503_60
+链接
+
+
+true
+Url
+link url for Slider 1
+61
+
+gd9503_61
+
+
+
+
+
+
+62
+
+gd9503_62
+
+
+
+
+
+
+63
+
+gd9503_63
+
+
+
+
+
+
+64
+
+gd9503_64
+
+
+
+
+
+
+65
+
+gd9503_65
+
+
+
+
+
+
+66
+
+gd9503_66
+
+
+
+
+
+
+67
+
+gd9503_67
+
+
+
+
+
+
+68
+
+gd9503_68
+
+
+
+
+
+
+69
+
+gd9503_69
+
+
+
+
+
+
+70
+
+gd9503_70
+第三幅广告是否可见
+值为true|false
+true
+ture
+Slider 3: Displayed
+true|false
+71
+
+gd9503_71
+图片名称
+直接使用文件名，带上后缀
+http://prestashop.uhupage.com/theme_188/modules/uhu_setting/images/gd9503/slider_33.jpg
+true
+Image for Slider 3
+Image filename you upload below or the img url in the web
+72
+
+gd9503_72
+广告标题
+
+What's New
+true
+Title
+title for Slider 3, Multi-languages: text for lang1|text for lang2|text for lang3
+73
+
+gd9503_73
+颜色
+#000000 - #FFFFFF
+#000
+
+
+
+74
+
+gd9503_74
+字体
+font代码格式，大小 行距 字体，如normal 11px/14px Arial, Verdana, sans-serif
+normal 2.1vw/2.2vw Impact LT Std
+true
+Font
+Title font for Slider 3, such as: normal 11px/14px Arial, Verdana, sans-serif
+75
+
+gd9503_75
+位置上
+显示位置 | 起始位置，包括单位px或%
+21%|21%
+true
+Top
+after|before, title position for Slider 3, must include px or %
+76
+
+gd9503_76
+位置左
+显示位置 | 起始位置，包括单位px或%
+27%|7%
+true
+Left
+after|before, title position for Slider 3, must include px or %
+77
+
+gd9503_77
+广告正文
+
+
+true
+Text
+text for Slider 3, Multi-languages: text for lang1|text for lang2|text for lang3
+78
+
+gd9503_78
+颜色
+#000000 - #FFFFFF
+
+
+
+
+79
+
+gd9503_79
+字体
+font代码格式，大小 行距 字体，如normal 11px/14px Arial, Verdana, sans-serif
+
+true
+Font
+Text font for Slider 3, such as: normal 11px/14px Arial, Verdana, sans-serif
+80
+
+gd9503_80
+位置上
+显示位置 | 起始位置，包括单位px或%
+
+true
+Top
+after|before, text position for Slider 3, must include px or %
+81
+
+gd9503_81
+位置左
+显示位置 | 起始位置，包括单位px或%
+
+true
+Left
+after|before, text position for Slider 3, must include px or %
+82
+
+gd9503_82
+品牌图片
+直接使用文件名，带上后缀
+
+true
+Logo
+logo file name for Slider 3, Multi-languages: file for lang1|file for lang2|file for lang3
+83
+
+gd9503_83
+位置上
+显示位置 | 起始位置，包括单位px或%
+
+true
+Top
+after|before, logo position for Slider 3, must include px or %
+84
+
+gd9503_84
+位置左
+显示位置 | 起始位置，包括单位px或%
+
+true
+Left
+after|before, logo position for Slider 3, must include px or %
+85
+
+gd9503_85
+链接文字
+
+
+true
+Link
+link text for Slider 3, Multi-languages: text for lang1|text for lang2|text for lang3
+86
+
+gd9503_86
+颜色
+#000000 - #FFFFFF
+
+
+
+
+87
+
+gd9503_87
+字体
+font代码格式，大小 行距 字体，如normal 11px/14px Arial, Verdana, sans-serif
+
+true
+Font
+Link font for Slider 3, such as: normal 11px/14px Arial, Verdana, sans-serif
+88
+
+gd9503_88
+位置上
+显示位置 | 起始位置，包括单位px或%
+
+true
+Top
+after|before, Link position for Slider 3, must include px or %
+89
+
+gd9503_89
+位置左
+显示位置 | 起始位置，包括单位px或%
+
+true
+Left
+after|before, Link position for Slider 3, must include px or %
+90
+
+gd9503_90
+链接
+
+
+true
+Url
+link url for Slider 3
+91
+
+gd9503_91
+新产品栏目开启
+true|false 新产品栏目只出现第三幅广告里
+true
+true
+Showing New Products
+true|false (only showing in Slider 3)
+92
+
+gd9503_92
+产品栏所占的格子数
+取值范围0-12
+5
+
+
+
+93
+
+gd9503_93
+产品栏位置
+top|left
+40%|26.5%
+true
+Top|Left
+position for New product column
+94
+
+gd9503_94
+价格图案类型
+取值为 circle | bookmark | certificate | cloud | comment | flag | heart | star | tag | trophy
+
+true
+Label for Price
+circle | bookmark | certificate | cloud | comment | flag | heart | star | tag | trophy
+95
+
+gd9503_95
+产品间隔参数
+取值为 3 - 5
+15
+
+
+
+96
+
+gd9503_96
+产品区格子数
+取值为 1 - 12
+5
+
+
+
+97
+
+gd9503_97
+产品 格子数
+取值为 1 - 12
+3
+
+
+
+98
+
+gd9503_98
+每行产品数
+
+4
+
+
+
+99
+
+gd9503_99
+
+
+
+
+
+

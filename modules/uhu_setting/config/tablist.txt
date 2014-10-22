@@ -1,0 +1,180 @@
+setting
+
+body
+setting_1
+
+#columns
+setting_2
+
+.header-container
+setting_3
+
+.footer-container
+setting_4
+
+
+setting_5
+
+a, a:active, a:visited
+setting_6
+
+#header
+setting_7
+
+#header a
+setting_8
+
+#footer
+setting_9
+
+#footer a
+setting_10
+
+#page .button, #page .button_large, #page .block_content .bx-pager a.active, .content_prices #add_to_cart input
+setting_11
+
+#page .block .title_block, #page h4, #page .idTabs,.productscategory_block h2
+setting_12
+
+#page ul li span i
+setting_13
+
+#page ul li span span
+setting_14
+
+#page .s_title_block a, #product_list li h3 a, #page h5 a, .block dt a, #page #center_column .sortPagiBar a
+setting_15
+
+
+setting_16
+
+.warning, .success, .error
+setting_17
+
+input[type='text'], input[type='email'], input[type='search'], input[type='password'], textarea, select
+setting_18
+
+
+setting_19
+
+
+setting_20
+
+i
+setting_21
+
+#header i
+setting_22
+
+#footer i
+setting_23
+
+#header .menu, #header .menu ul.nav_item li
+setting_24
+
+#header .nav_item li a, #header .mobile li a
+setting_25
+
+#header .menu .nav_item li .nav_pop, #header .menu .mobile li ul
+setting_26
+
+#header .menu .nav_item li .nav_pop a, #header .menu .mobile li ul li a, #header #cart_block, #header #cart_block a
+setting_27
+
+#header .menu .mobile i
+setting_28
+
+i.icon-shopping-cart, i.text
+setting_29
+
+#footer .title_block, #footer h4
+setting_30
+
+ul li .product_desc
+setting_31
+
+select
+setting_32
+
+.button-flat-primary
+setting_33
+
+a.button-flat-action
+setting_34
+
+.button-flat
+setting_35
+
+.button-flat-primary:hover
+setting_36
+
+.button-flat-action:hover
+setting_37
+
+table.std th, table.table_block th, div.addresses p.address_delivery, #history #center_column .title_block, #my-account .myaccount_lnk_list li a, #add_address h3, #contact h3, .cart_total_price .total_price_container p
+setting_38
+
+table#cart_summary td, table.std td, table.table_block td, form.std fieldset, table.std, table.table_block, #authentication #create-account_form .form_content, #authentication #login_form .form_content, div.addresses, ul.address li.address_title, .order_delivery .first_item, .order_delivery .last_item, .order_carrier_content .delivery_options, .paiement_block p.payment_module, #my-account .myaccount_lnk_list li a, #add_address fieldset,#product_comparison td, table#product_comparison, .product_attributes, .content_prices
+setting_39
+
+#page ul.step li i
+setting_40
+
+.block .title_block, .products_block .title_block, h4, .idTabs a, .productscategory_block h2, .block .title_block a
+setting_41
+
+ul.step li.step_current, ul.step li.step_current_end, #page ul.step li.step_current i, #page ul.step li.step_current_end i
+setting_42
+
+ul.step li.step_done, ul.step li.step_done a
+setting_43
+
+ul.step li
+setting_44
+
+#header_container, #header
+setting_45
+
+#footer_container, #footer
+setting_46
+
+#columns
+setting_47
+
+#header .menu ul.nav_item
+setting_48
+
+#header .menu ul.umenu li span:after
+setting_49
+
+#page .button-flat-highlight
+setting_50
+
+#page .button-flat-highlight:hover
+setting_51
+
+#page .button-flat-highlight i.icon-shopping-cart
+setting_52
+
+#page .button-flat-highlight i.text
+setting_53
+
+#page #center_column ul#product_list li span.price
+setting_54
+
+ul.dropdown-menu
+setting_55
+
+ul.dropdown-menu li
+setting_56
+
+.dropdown-menu>li>a
+setting_57
+
+.dropdown-menu>li>a:hover, .dropdown-menu>li>a:focus, .dropdown-submenu:hover>a, .dropdown-submenu:focus>a
+setting_58
+
+p.dropdown-toggle span
+
+
+

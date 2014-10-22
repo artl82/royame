@@ -1,0 +1,18 @@
+0
+
+qttags_1
+框架所占的格子数
+取值范围0-12
+
+false
+
+
+1
+
+qttags_2
+显示标签数量
+默认10个
+
+true
+Tags displayed
+Define the number of tags you would like displayed in this block.

@@ -1,0 +1,90 @@
+6
+
+xp9501_1
+框架所占的格子数
+取值范围0-12
+12
+false
+
+
+3
+
+xp9501_2
+产品所占的格子数
+取值范围0-12
+3
+true
+Grids per item
+
+2
+
+xp9501_3
+每行产品数量
+设计每行要显示的产品数
+4
+true
+Items per line
+
+1
+
+xp9501_4
+全部产品数量
+设计全部要显示的产品数
+8
+true
+Total of product to show
+4|8|12|16|20
+9
+
+xp9501_5
+产品类型
+取值为new | featured | random
+featured
+
+
+
+8
+
+xp9501_6
+标题位置
+取值为top | bottom
+bottom
+false
+
+
+4
+
+xp9501_7
+商品小图案类型
+取值为 circle | bookmark | certificate | cloud | comment | flag | heart | star | tag | trophy
+certificate
+true
+Type of label
+circle | bookmark | certificate | cloud | comment | flag | heart | star | tag | trophy
+0
+
+xp9501_8
+是否启用本插件
+yes|no
+no
+true
+Enable This Module
+yes|no
+7
+
+xp9501_9
+动态效果定义
+rollup|rolldown|rollleft
+rollleft
+false
+
+
+5
+
+xp9501_10
+标题图标定义
+取值为所有Font Awesome 3.0图标
+
+true
+Icon for Block Title
+icon-asterisk|icon-star, all icon in Font Awesome 3.0

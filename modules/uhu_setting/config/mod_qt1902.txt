@@ -1,0 +1,99 @@
+5
+
+qt1901_1
+框架所占的格子数
+取值范围0-12
+3
+false
+
+
+5
+
+qt1901_2
+小图标类型
+取值为 angle-right | caret-right | chevron-right | double-angle-right | circle | forward | minus | certificate | asterisk
+caret-right
+
+
+
+3
+
+qt1901_3
+热门分类推荐
+直接输入分类的ID，用英文逗号分开，不加空格
+3,4,5,6,7,8,9,10
+true
+Hot Categories
+Set ID category, separated by commas (e.g. 3,4,5)
+2
+
+qt1901_4
+标题图标定义
+取值为所有Font Awesome 3.0图标
+
+true
+Icon for Block Title
+icon-asterisk|icon-star, all icon in Font Awesome 3.0
+0
+
+qt1901_5
+是否启用本插件
+yes|no
+yes
+true
+Enable This Module
+yes|no
+3
+
+qt1901_6
+各分类背景图片
+直接文件名，以逗号分开
+
+true
+image for categories
+Set image name, separated by |
+1
+
+qt1901_7
+分类所占的格子数
+
+
+true
+Grid for each items
+
+1
+
+qt1901_8
+每行个数
+
+
+true
+Number of items perline
+
+5
+
+qt1901_9
+bxslider
+yes|no
+
+
+
+
+4
+
+qt1901_10
+热门品牌推荐
+直接输入品牌的ID，用英文逗号分开，不加空格
+
+true
+Hot Brands
+Set ID manufacturer, separated by commas (e.g. 3,4,5)
+4
+
+qt1901_11
+各品牌背景图片
+直接文件名，以逗号分开
+
+true
+image for brands
+Set image name, separated by |

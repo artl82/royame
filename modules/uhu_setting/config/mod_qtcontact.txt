@@ -1,0 +1,27 @@
+0
+
+qtcontact_1
+框架所占的格子数
+取值范围0-12
+
+
+
+
+1
+
+qtcontact_2
+电话
+
++33 (0)1.23.45.67.89
+true
+Telephone number
+
+2
+
+qtcontact_3
+邮箱
+
+sales@yourcompany.com
+true
+Work schedule
+

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<module>
+	<name>uhu_myaccount</name>
+	<displayName><![CDATA[uhu My account block]]></displayName>
+	<version><![CDATA[4.16.04]]></version>
+	<description><![CDATA[Displays a block with links relative to user accounts.]]></description>
+	<author><![CDATA[uhuPage]]></author>
+	<tab><![CDATA[others]]></tab>
+	<is_configurable>0</is_configurable>
+	<need_instance>0</need_instance>
+	<limited_countries></limited_countries>
+</module>

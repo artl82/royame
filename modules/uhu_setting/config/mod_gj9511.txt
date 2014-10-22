@@ -1,0 +1,72 @@
+7
+
+gj9511_1
+插件安装位置
+默认home | top | foot
+top
+false
+
+
+7
+
+gj9511_2
+框架所占的格子数
+取值范围0-12
+12
+false
+
+
+7
+
+gj9511_3
+单个广告所占的格子数
+取值范围0-12
+12
+false
+
+
+2
+
+gj9511_4
+多语言支持
+取值为en|fr|es|de
+false
+true
+Multi-language
+Multi-languages: lang1|lang2|lang3, such as en|fr|es|de
+3
+
+gj9511_5
+第一幅广告图名称
+直接使用文件名，带上后缀
+http://prestashop.uhupage.com/theme_188/modules/uhu_setting/images/gj9511/1170.png
+true
+Filename for ad 1
+Image filename you upload below or the img url in the web, Multi-languages: file for lang1|file for lang2|file for lang3
+3
+
+gj9511_6
+第一幅广告图链接
+
+
+true
+link for ad 1
+
+1
+
+gj9511_7
+特效
+no|zoom
+no
+true
+CSS3 effects
+no|zoom
+0
+
+gj9511_8
+是否启用本插件
+yes|no
+yes
+true
+Enable This Module
+yes|no

@@ -1,0 +1,180 @@
+17
+
+gd9501_1
+框架所占的格子数
+取值范围0-12
+12
+
+
+
+2
+
+gd9501_2
+广告图数量
+取值范围1-5
+3
+true
+Number of advertising to show
+
+2
+
+gd9501_3
+多语言支持
+取值为en|fr|es|de
+false
+true
+Multi-language
+Multi-languages: lang1|lang2|lang3, such as en|fr|es|de
+3
+
+gd9501_4
+第一幅广告图名称
+直接使用文件名，带上后缀
+http://prestashop.uhupage.com/theme_188/modules/uhu_setting/images/gd9501/slider_11.jpg
+true
+Image for ad 1
+Image filename you upload below or the img url in the web, Multi-languages: file for lang1|file for lang2|file for lang3
+4
+
+gd9501_5
+第二幅广告图名称
+直接使用文件名，带上后缀
+http://prestashop.uhupage.com/theme_188/modules/uhu_setting/images/gd9501/slider_12.jpg
+true
+Image for ad 2
+Image filename you upload below or the img url in the web, Multi-languages: file for lang1|file for lang2|file for lang3
+5
+
+gd9501_6
+第三幅广告图名称
+直接使用文件名，带上后缀
+http://prestashop.uhupage.com/theme_188/modules/uhu_setting/images/gd9501/slider_13.jpg
+true
+Image for ad 3
+Image filename you upload below or the img url in the web, Multi-languages: file for lang1|file for lang2|file for lang3
+6
+
+gd9501_7
+第四幅广告图名称
+直接使用文件名，带上后缀
+
+true
+Image for ad 4
+Image filename you upload below or the img url in the web, Multi-languages: file for lang1|file for lang2|file for lang3
+7
+
+gd9501_8
+第五幅广告图名称
+直接使用文件名，带上后缀
+
+true
+Image for ad 5
+Image filename you upload below or the img url in the web, Multi-languages: file for lang1|file for lang2|file for lang3
+8
+
+gd9501_9
+第一幅广告图链接
+点击图片跳转的链接
+
+true
+link for ad 1
+
+9
+
+gd9501_10
+第二幅广告图链接
+点击图片跳转的链接
+
+true
+link for ad 2
+
+10
+
+gd9501_11
+第三幅广告图链接
+点击图片跳转的链接
+
+true
+link for ad 3
+
+11
+
+gd9501_12
+第四幅广告图链接
+点击图片跳转的链接
+
+true
+link for ad 4
+
+12
+
+gd9501_13
+第五幅广告图链接
+点击图片跳转的链接
+
+true
+link for ad 5
+
+13
+
+gd9501_14
+图片切换方式
+取值为 swing|linear|easeOutElastic|easeInOutQuint, See http://gsgd.co.uk/sandbox/jquery/easing/ for more info.
+easeInOutQuint
+true
+Custom easing
+swing|linear|easeOutElastic|easeInOutQuint, See http://gsgd.co.uk/sandbox/jquery/easing/ for more info.
+14
+
+gd9501_15
+上一幅图标
+取值为 angle-left | double-angle-left | arrow-left | caret-left | chevron-left | circle-arrow-left | hand-left
+angle-left
+true
+Prev control
+angle-left | double-angle-left | arrow-left | caret-left | chevron-left | circle-arrow-left | hand-left
+15
+
+gd9501_16
+下一幅图标
+取值为 angle-right | double-angle-right | arrow-right | caret-right | chevron-right | circle-arrow-right | hand-right
+angle-right
+true
+Next control
+angle-right | double-angle-right | arrow-right | caret-right | chevron-right | circle-arrow-right | hand-right
+2
+
+gd9501_17
+切换速度
+参考值为2000
+1500
+true
+Speed
+Slide transition duration (in ms)
+0
+
+gd9501_18
+是否启用本插件
+yes|no
+yes
+true
+Enable This Module
+yes|no
+18
+
+gd9501_19
+插件安装位置
+取值为top和home
+
+
+
+
+1
+
+gd9501_20
+自动播放
+true / false
+false
+true
+Auto
+true / false, Slides will automatically transition

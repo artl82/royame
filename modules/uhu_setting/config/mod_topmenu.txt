@@ -1,0 +1,396 @@
+30
+
+topmenu_1
+推荐分类区格子数
+取值范围0-12
+7
+true
+Grid of Featured Category
+Suggest is 6, value is 0 - 12
+30
+
+topmenu_2
+全部分类区格子数
+取值范围0-12
+5
+true
+Grid of All Category
+Suggest is 6, value is 0 - 12
+32
+
+topmenu_3
+推荐产品区格子数
+取值范围0-12
+8
+true
+Grid of Featured Products
+Suggest is 8, value is 0 - 12
+32
+
+topmenu_4
+产品广告区格子数
+取值范围0-12
+4
+true
+Grid of Advertising
+Suggest is 4, value is 0 - 12
+34
+
+topmenu_5
+推荐品牌区格子数
+取值范围0-12
+7
+true
+Grid of Featured Brands
+Suggest is 7, value is 0 - 12
+34
+
+topmenu_6
+全部品牌区格子数
+取值范围0-12
+5
+true
+Grid of All Brands
+Suggest is 5, value is 0 - 12
+3
+
+topmenu_7
+产品栏：推荐产品
+推荐产品ID
+2,3,4,5
+true
+Featured Product ID
+Input product ID, separated by commas
+4
+
+topmenu_8
+品牌栏：推荐品牌
+推荐品牌ID
+1,2,3
+true
+Featured Manufacturers ID
+Input Manufacturers ID, separated by commas
+2
+
+topmenu_9
+分类栏：推荐分类
+推荐分类ID
+3,4,5,6,7,8
+true
+Featured Category ID
+Input Category ID, separated by commas
+5
+
+topmenu_10
+CMS 菜单项
+推荐CMS ID
+4
+true
+CMS page ID
+Input CMS page ID, separated by commas
+40
+
+topmenu_11
+推荐分类区每行个数
+推荐个数2,3,4,6
+2
+
+
+
+31
+
+topmenu_12
+推荐分类区单个分类格子数
+取值范围0-12
+4
+true
+Grid for a single Featured Category
+Suggest is 6, value is 0 - 12
+28
+
+topmenu_13
+定制菜单：推荐分类汇总
+
+CAT4,CAT8,CAT,CATA5,CATA6,CATA7,CATB9,CATB10,CATB11,
+
+Custom menu item A
+Set ID category, ID product, ID Manufacturers, separated by commas
+31
+
+topmenu_14
+全部分类区单个分类格子数
+取值范围0-12
+4
+true
+Grid of Single Category
+Suggest is 4, single category in all category block
+3
+
+topmenu_15
+产品广告区之产品图
+直接使用文件名，带上后缀
+menuad.jpg
+true
+Advertising filename
+
+3
+
+topmenu_16
+产品广告区之链接
+
+
+true
+Advertising link
+
+33
+
+topmenu_17
+推荐产品区每行推荐产品个数
+推荐个数2,3,4,6
+4
+true
+Products per line
+
+33
+
+topmenu_18
+推荐产品区单个推荐产品格子数
+取值范围0-12
+3
+true
+grid for each featured product
+suggest is 3
+35
+
+topmenu_19
+推荐品牌区每行品牌个数
+推荐个数2,3,4,6
+4
+true
+Brands per line
+value is 2,3,4,6
+35
+
+topmenu_20
+推荐品牌区单个品牌格子数
+取值范围0-12
+4
+true
+grid for each featured brand
+suggest is 4
+35
+
+topmenu_21
+全部品牌区每行个数
+推荐个数2,3,4,6
+2
+
+
+
+35
+
+topmenu_22
+全部品牌区单个品牌格子数
+取值范围0-12
+6
+true
+Grid for each brand
+suggest is 6
+0
+
+topmenu_23
+是否启用弹出窗口
+yes|no
+yes
+true
+Enable Pop Menu
+yes|no
+6
+
+topmenu_24
+自定义链接名称
+用'|'分开
+Our store
+true
+Custom Menu Labels
+Please enter the title words separated by |
+6
+
+topmenu_25
+自定义链接
+用'|'分开
+index.php?controller=stores
+true
+Custom Menu Links
+Please enter the links separated by |
+8
+
+topmenu_26
+定制菜单项目一
+Featured Category ID, display in menu bar,only one.
+4
+true
+Menu Bar
+Featured Category ID, display in menu bar,only one.
+7
+
+menubarc
+分类菜单项
+直接输入分类的ID，用英文逗号分开，不加空格
+3
+true
+Categories menuitem
+Set ID category, separated by commas (e.g. 3,4,5)
+1
+
+menubard
+启用Home项
+true|false
+true
+true
+Home menu item
+true|false
+28
+
+topmenu_29
+定制菜单：广告图片汇总
+
+CATA:443.jpg|CATB:3.jpg,4.jpg|CATC:
+
+
+
+28
+
+topmenu_30
+定制菜单：广告链接汇总
+
+CATA:http://www.prestashop.com|CATB:http://www.prestashop.com,http://www.prestashop.com|CATC:
+
+
+
+8
+
+topmenu_31
+定制菜单项目一
+Featured Category ID, display in pop menu, separated by commas
+5,6,7
+true
+Pop Menu
+Featured Category ID, display in pop menu, separated by commas
+8
+
+topmenu_32
+定制菜单项目一
+Advertising image file names, display in pop menu, separated by commas
+443.jpg
+true
+Advertising
+Advertising image file names, display in pop menu, separated by commas
+8
+
+topmenu_33
+定制菜单项目一
+Advertising image links, display in pop menu, separated by commas
+http://www.prestashop.com
+true
+Advertising Link
+Advertising image links, display in pop menu, separated by commas
+9
+
+topmenu_34
+定制菜单项目二
+Featured Category ID, display in menu bar,only one.
+8
+true
+Menu Bar
+Featured Category ID, display in menu bar,only one.
+9
+
+topmenu_35
+定制菜单项目二
+Featured Category ID, display in pop menu, separated by commas
+9,10,11
+true
+Pop Menu
+Featured Category ID, display in pop menu, separated by commas
+9
+
+topmenu_36
+定制菜单项目二
+Advertising image file names, display in pop menu, separated by commas
+3.jpg,4.jpg
+true
+Advertising
+Advertising image file names, display in pop menu, separated by commas
+9
+
+topmenu_37
+定制菜单项目二
+Advertising image links, display in pop menu, separated by commas
+http://www.prestashop.com,http://www.prestashop.com
+true
+Advertising Link
+Advertising image links, display in pop menu, separated by commas
+10
+
+topmenu_38
+定制菜单项目三
+Featured Category ID, display in menu bar,only one.
+
+true
+Menu Bar
+Featured Category ID, display in menu bar,only one.
+10
+
+topmenu_39
+定制菜单项目三
+Featured Category ID, display in pop menu, separated by commas
+
+true
+Pop Menu
+Featured Category ID, display in pop menu, separated by commas
+10
+
+topmenu_40
+定制菜单项目三
+Advertising image file names, display in pop menu, separated by commas
+
+true
+Advertising
+Advertising image file names, display in pop menu, separated by commas
+10
+
+topmenu_41
+定制菜单项目三
+Advertising image links, display in pop menu, separated by commas
+
+true
+Advertising Link
+Advertising image links, display in pop menu, separated by commas
+41
+
+topmenu_42
+是否显示全部分类
+yes|no
+
+true
+Show All categories
+yes|no
+42
+
+topmenu_43
+Show All brands
+yes|no
+
+true
+Show All categories
+yes|no
+43
+
+
+
+
+
+
+
+

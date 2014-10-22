@@ -1,0 +1,54 @@
+0
+
+pp1902_1
+框架所占的格子数
+取值范围0-12
+
+false
+
+
+1
+
+pp1902_2
+显示品牌数量
+
+pp1902_3
+true
+Number of brand to show
+
+2
+
+pp1902_3
+图片类型
+填写想使用的图片类型，在后台image处定义
+
+true
+Type of image to show
+define in Preferences  > Images
+3
+
+pp1902_4
+每行显示数量
+
+true
+
+
+
+4
+
+pp1902_5
+标题图标定义
+取值为所有Font Awesome 3.0图标
+yes|no
+true
+Icon for Block Title
+icon-asterisk|icon-star, all icon in Font Awesome 3.0
+5
+
+pp1902_6
+是否启用本插件
+yes|no
+
+true
+Enable This Module
+yes|no

@@ -1,0 +1,144 @@
+6
+
+gj9541_1
+插件安装位置
+默认home | top | foot
+home
+false
+
+
+6
+
+gj9541_2
+框架所占的格子数
+取值范围0-12
+12
+false
+
+
+6
+
+gj9541_3
+单个广告所占的格子数
+取值范围0-12
+4
+false
+
+
+1
+
+gj9541_4
+多语言支持
+取值为en|fr|es|de
+en|fr
+true
+Multi-language
+Multi-languages: lang1|lang2|lang3, such as en|fr|es|de
+2
+
+gj9541_5
+第一幅广告图名称
+直接使用文件名，带上后缀
+http://prestashop.uhupage.com/theme_188/modules/uhu_setting/images/gj9541/370x490_1.jpg
+true
+Image for ad 1
+Image filename you upload below or the img url in the web, Multi-languages: file for lang1|file for lang2|file for lang3
+2
+
+gj9541_6
+第一幅广告图链接
+
+
+true
+link for ad 1
+
+3
+
+gj9541_7
+第二幅广告图名称
+直接使用文件名，带上后缀
+http://prestashop.uhupage.com/theme_188/modules/uhu_setting/images/gj9541/370x490_2.jpg
+true
+Image for ad 2
+Image filename you upload below or the img url in the web, Multi-languages: file for lang1|file for lang2|file for lang3
+3
+
+gj9541_8
+第二幅广告图链接
+
+
+true
+link for ad 2
+
+4
+
+gj9541_9
+第三幅广告图名称
+直接使用文件名，带上后缀
+http://prestashop.uhupage.com/theme_188/modules/uhu_setting/images/gj9541/370x230_4.jpg
+true
+Image for ad 3
+Image filename you upload below or the img url in the web, Multi-languages: file for lang1|file for lang2|file for lang3
+4
+
+gj9541_10
+第三幅广告图链接
+
+
+true
+link for ad 3
+
+5
+
+gj9541_11
+第四幅广告图名称
+直接使用文件名，带上后缀
+http://prestashop.uhupage.com/theme_188/modules/uhu_setting/images/gj9541/370x230_5.jpg
+true
+Image for ad 4
+Image filename you upload below or the img url in the web, Multi-languages: file for lang1|file for lang2|file for lang3
+5
+
+gj9541_12
+第四幅广告图链接
+
+
+true
+link for ad 4
+
+7
+
+gj9541_13
+第五幅广告图名称
+直接使用文件名，带上后缀
+
+
+
+
+7
+
+gj9541_14
+第五幅广告图链接
+
+
+
+
+
+0
+
+gj9541_15
+是否启用本插件
+yes|no
+yes
+true
+Enable This Module
+yes|no
+1
+
+gj9541_16
+特效
+no|zoom
+leftimg
+true
+CSS3 effects
+no|zoom

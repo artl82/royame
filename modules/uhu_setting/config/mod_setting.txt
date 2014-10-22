@@ -1,0 +1,3600 @@
+0
+
+theme_name
+模板名称
+
+uhu0188
+
+Theme Name
+
+1
+
+theme_version
+模板版本
+
+1.2
+
+Theme Version
+
+2
+
+theme_date
+发布时间
+
+2014/9/6
+
+Theme Date
+
+3
+
+setting_3
+主题名称
+
+theme1|theme2|theme3
+
+Theme Names
+
+4
+
+setting_4
+主题颜色
+
+#3D2A23|#1D1D1D|#2F1512|
+
+Theme Colors
+
+5
+||
+setting5
+
+cssselect_3_31
+
+background-color
+Content Block Background
+.products_block .block_content
+6
+||
+setting6
+
+cssselect_3_33
+
+background-color
+Product Block Background
+.products_block .block_content ul li, .products_block .block_content ul li .product-container,  .products_block .block_content ul li .product_image
+7
+||
+setting7
+
+cssselect_3_33
+
+border-color
+Product Block Border
+.products_block .block_content ul li, .products_block .block_content ul li .product-container,  .products_block .block_content ul li .product_image
+8
+||
+message_border
+前台设计：信息框边框
+cssselect_8_16
+
+border-color
+Message Border
+.warning, .success, .error
+9
+||
+input_border
+前台设计：输入框边框
+cssselect_8_17
+
+border-color
+Input Border
+input[type='text'], input[type='email'], input[type='search'], input[type='password'], textarea, select
+10
+#828282|#828282|#A8A8AA
+body_Textcolor0
+前台设计：正文颜色
+cssselect_8_0
+
+color
+Text Color
+body
+11
+#6D6D6D|#6D6D6D|#6D6D6D
+body_Linkcolor0
+前台设计：链接颜色
+cssselect_8_5
+
+color
+Link Color
+a, a:active, a:visited
+12
+||
+header_text
+前台设计：头部正文颜色
+cssselect_8_6
+
+color
+Header Text Color
+#header
+13
+||
+header_link
+前台设计：头部链接颜色
+cssselect_8_7
+
+color
+Header Link Color
+#header a
+14
+#7B6C67|#616161|#A78888
+footer_text
+前台设计：底部正文颜色
+cssselect_3_5
+
+color
+Footer Text Color
+.footer-container #footer
+15
+#7B6C67|#616161|#A78888
+footer_link
+前台设计：底部链接颜色
+cssselect_3_8
+
+color
+Footer Link Color
+.footer-container #footer a
+16
+#A8A8A8|#A8A8A8|#A8A8A8
+body_bg
+前台设计：网页背景颜色
+cssselect_8_0
+
+background
+Screen Background
+body
+17
+||
+body_pattern
+前台设计：网页背景图案
+cssselect_8_0
+
+background-pattern
+Screen Pattern
+body
+18
+||
+body_bgpos
+前台设计：网页背景调整
+cssselect_8_0
+
+background-position
+Screen Position
+body
+19
+transparent|transparent|transparent
+header_bg
+前台设计：头部背景颜色
+cssselect_3_91
+
+background
+Header Background
+.header-container
+20
+||
+header_pattern
+前台设计：头部背景图案
+cssselect_3_91
+
+background-pattern
+Header Pattern
+.header-container
+21
+||
+header_bgpos
+前台设计：头部背景调整
+cssselect_3_91
+
+background-position
+Header Position
+.header-container
+22
+||
+columns_bg
+前台设计：中部背景颜色
+cssselect_3_70
+
+background
+Page Background
+.columns-container
+23
+||
+columns_pattern
+前台设计：中部背景图案
+cssselect_3_70
+
+background-pattern
+Page Pattern
+.columns-container
+24
+||
+columns_bgpos
+前台设计：中部背景调整
+cssselect_3_70
+
+background-position
+Page Position
+.columns-container
+25
+#3B2C27|#0B0B0B|#2F1512
+footer_bg
+前台设计：底部背景颜色
+cssselect_8_3
+
+background
+Footer Background
+.footer-container
+26
+||
+footer_pattern
+前台设计：底部背景图案
+cssselect_8_3
+
+background-pattern
+Footer Pattern
+.footer-container
+27
+||
+footer_bgpos
+前台设计：底部背景调整
+cssselect_8_3
+
+background-position
+Footer Position
+.footer-container
+28
+#FFFFFF|#FFFFFF|#FFFFFF
+menubar_color
+前台设计：菜单条文字颜色
+cssselect_8_24
+
+color
+MenuBar Text
+#header .nav_item li a, #header .mobile li a
+29
+#949494|#949494|#F0C7B8
+product_title
+前台设计：商品标题
+cssselect_3_40
+
+color
+Product title
+.products_block .s_title_block a
+30
+#B8AE7D|#B8AE7D|#EB4F28
+product_price
+前台设计：商品价格
+cssselect_3_47
+
+color
+Product price
+.products_block .block_content span.price
+31
+||
+button_color
+前台设计：按钮文字色
+cssselect_8_10
+
+color
+Button text
+#page .button, #page .button_large, #page .block_content .bx-pager a.active, .content_prices #add_to_cart input
+32
+||
+button_bgcolor
+前台设计：按钮背景色
+cssselect_8_10
+
+background-color
+Button background
+#page .button, #page .button_large, #page .block_content .bx-pager a.active, .content_prices #add_to_cart input
+33
+#FFFFFF|#FFFFFF|#FFFFFF
+headings_color
+左栏标题文字色
+cssselect_3_11
+
+color
+Left column title text
+.block .title_block a,  .block h4 a, .block .title_block,  .block h4
+34
+#4A3B38|#3F3F3F|#8E6F6C
+headings_bgcolor
+左栏标题背景色
+cssselect_3_10
+
+background-color
+Left column title background
+.block .title_block,  .block h4
+35
+#4A3B38|#3F3F3F|#8E6F6C
+headings_border
+左栏标题边框色
+cssselect_3_10
+
+border-color
+Left column title border
+.block .title_block,  .block h4
+36
+||
+input_color
+前台设计：输入框文字
+cssselect_8_17
+
+color
+Input Text
+input[type='text'], input[type='email'], input[type='search'], input[type='password'], textarea, select
+37
+||
+input_bgcolor
+前台设计：输入框背景
+cssselect_8_17
+
+background-color
+Input  BG Color
+input[type='text'], input[type='email'], input[type='search'], input[type='password'], textarea, select
+38
+||
+message_color
+前台设计：信息框文字
+cssselect_8_16
+
+color
+Message Text
+.warning, .success, .error
+39
+||
+message_bgcolor
+前台设计：信息框背景
+cssselect_8_16
+
+background-color
+Message BG Color
+.warning, .success, .error
+40
+||
+body_icon
+前台设计：默认图标颜色
+cssselect_8_20
+
+color
+Icon Color
+i
+41
+||
+header_icon
+前台设计：头部图标颜色
+cssselect_8_21
+
+color
+Header Icon Color
+#header i
+42
+#888888|#888888|#888888
+footer_icon
+前台设计：底部图标颜色
+cssselect_3_92
+
+color
+Footer Icon Color
+#footer i
+43
+#2C1E1B|#333333|#560100
+menubar_border
+前台设计：菜单条边框颜色
+cssselect_16_0
+
+border-color
+MenuBar Border
+#header .menu
+44
+#332826|#1D1D1D|#892418
+menubar_bgcolor
+前台设计：菜单条背景颜色
+cssselect_8_23
+
+background-color
+MenuBar BG Color
+#header .menu, #header .menu ul.nav_item li
+45
+#6D6D6D|#6D6D6D|#6D6D6D
+popmenu_color
+
+cssselect_16_42
+
+color
+PopMenu Text
+#header .menu .nav_item li .nav_pop, #header .menu .mobile li ul
+46
+#1B1413|#333333|#560100
+popmenu_border
+前台设计：弹出菜单边框颜色
+cssselect_16_42
+
+border-color
+PopMenu Border
+#header .menu .nav_item li .nav_pop, #header .menu .mobile li ul
+47
+#2E2422|#232323|#360000
+popmenu_bgcolor
+前台设计：弹出菜单背景颜色
+cssselect_16_42
+
+background-color
+PopMenu BG Color
+#header .menu .nav_item li .nav_pop, #header .menu .mobile li ul
+48
+||
+popmenu_icon
+前台设计：弹出菜单图标颜色
+cssselect_16_33
+
+color
+PopMenu Icon
+#header .menu .mobile li span.grower.OPEN:before, #header .menu .mobile li span.grower.CLOSE:before
+49
+||
+cart_icon
+前台设计：购物图标颜色
+cssselect_8_28
+
+color
+Shoppingcart Icon
+i.icon-shopping-cart, i.text
+50
+#6F6F6F|#6F6F6F|#A54E4E
+fheadings_color
+前台设计：底部标题文字色
+cssselect_3_85
+
+color
+Title Text
+.footer-container #footer .title_block, .footer-container #footer h4
+51
+||
+fheadings_bgcolor
+前台设计：底部标题背景色
+cssselect_3_85
+
+background-color
+Title BG Color
+.footer-container #footer .title_block, .footer-container #footer h4
+52
+||
+fheadings_border
+前台设计：底部标题边框色
+cssselect_3_85
+
+border-color
+Title Border
+.footer-container #footer .title_block, .footer-container #footer h4
+53
+||
+product_des
+前台设计：商品简介
+cssselect_8_30
+
+color
+Product description
+ul li .product_desc
+54
+||
+new_icon
+前台设计：商品小标签图标
+cssselect_8_12
+
+color
+Label icon
+#page ul li span i
+55
+||
+new_text
+前台设计：商品小标签文字
+cssselect_8_13
+
+color
+Label text
+#page ul li span span
+56
+||
+cart_iconbg
+前台设计：购物图标背景颜色
+cssselect_8_28
+
+background-color
+Shoppingcart Icon BG
+i.icon-shopping-cart, i.text
+57
+||
+htainer_border
+前台设计：头部边框颜色
+cssselect_3_91
+
+border-color
+Header container border
+.header-container
+58
+||
+ftainer_border
+
+cssselect_8_46
+
+border-color
+Content container border
+#columns
+59
+||
+column_border
+
+cssselect_3_4
+
+border-color
+Footer container border
+.footer-container
+60
+||
+setting60
+头部插件：导航条边框颜色
+cssselect_11_1
+
+border-color
+Border color
+.nav .header_user_info a
+61
+||
+setting61
+头部插件：导航条背景颜色
+cssselect_11_1
+
+background-color
+Background color
+.nav .header_user_info a
+62
+||
+setting62
+头部插件：导航条图标颜色
+cssselect_11_2
+
+color
+Icon
+#header_user #header_nav li i, .nav .header_user_info a i
+63
+||
+setting63
+头部插件：导航条文字颜色
+cssselect_11_3
+
+color
+Text
+#header_user #header_nav li p,  .nav .header_user_info a p
+64
+||
+setting64
+头部插件：语言条边框颜色
+cssselect_13_0
+
+border-color
+Border
+header .nav nav #languages-block-top
+65
+||
+setting65
+头部插件：语言条背景颜色
+cssselect_13_0
+
+background-color
+Background
+header .nav nav #languages-block-top
+66
+||
+setting66
+头部插件：语言条图标颜色
+cssselect_13_5
+
+color
+Text Color or Icon Color
+#languages-block-top ul li a, #languages-block-top ul li > span
+67
+#D1AD5F|#C1C1C1|#8E6F6C
+setting67
+头部插件：语言条文字颜色
+cssselect_13_7
+
+background-color
+Selected Background
+#languages-block-top ul li.selected span, #languages-block-top ul li:hover a
+68
+||
+setting68
+头部插件：语言条弹出框边框颜色
+cssselect_13_7
+
+color
+Selected Text
+#languages-block-top ul li.selected span, #languages-block-top ul li:hover a
+69
+#332826|#333333|#560100
+setting69
+头部插件：语言条弹出框背景颜色
+cssselect_13_6
+
+background-color
+Popup background
+#languages-block-top ul
+70
+||
+setting70
+头部插件：货币条边框颜色
+cssselect_12_0
+
+border-color
+Border
+nav #currencies-block-top
+71
+||
+setting71
+头部插件：货币条背景颜色
+cssselect_12_0
+
+background-color
+Background
+nav #currencies-block-top
+72
+||
+setting72
+头部插件：货币条文字颜色
+cssselect_12_7
+
+color
+Text Color
+#currencies-block-top ul li a,       #currencies-block-top ul li > span
+73
+||
+setting73
+头部插件：货币条图标颜色
+cssselect_12_8
+
+color
+Selected Text
+#currencies-block-top ul li.selected a, #currencies-block-top ul li:hover a
+74
+#D1AD5F|#C1C1C1|#8E6F6C
+setting74
+头部插件：货币条弹出框背景颜色
+cssselect_12_8
+
+background-color
+Selected Background
+#currencies-block-top ul li.selected a, #currencies-block-top ul li:hover a
+75
+#332826|#333333|#560100
+setting75
+头部插件：货币条弹出框边框颜色
+cssselect_12_5
+
+background-color
+Popup Background
+nav #currencies-block-top ul
+76
+#DCBF71|#C1C1C1|#8E6F6C
+setting76
+头部插件：搜索条边框颜色
+cssselect_10_1
+
+border-color
+Border
+#header #search_block_top #search_query_top
+77
+transparent|transparent|transparent
+setting77
+头部插件：搜索条背景颜色
+cssselect_10_1
+
+background-color
+Background
+#header #search_block_top #search_query_top
+78
+#A8A8AA|#A8A8AA|#FFFFFF
+setting78
+头部插件：搜索条文字颜色
+cssselect_10_1
+
+color
+Text
+#header #search_block_top #search_query_top
+79
+#DCBF71|#C1C1C1|#FFFFFF
+setting79
+头部插件：搜索条图标颜色
+cssselect_10_2
+
+color
+Icon
+#header #search_block_top .button, #search_block_top .btn.button-search
+80
+#A99B78|#CCCCCC|#CCCCCC
+setting80
+
+cssselect_7_2
+
+color
+logo text
+#header_logo #logo_text
+81
+||
+setting81
+
+cssselect_3_5
+
+background-color
+Background Footer content
+.footer-container #footer
+82
+||
+setting82
+中部插件：uhu_xp_9501框架背景颜色
+cssselect_20_0
+
+background-color
+Background
+#uhu_xp_9501
+83
+||
+setting83
+中部插件：uhu_xp_9501框架边框颜色
+cssselect_20_0
+
+border-color
+Border
+#uhu_xp_9501
+84
+||
+setting84
+中部插件：uhu_xp_9501标题文字颜色
+cssselect_20_1
+
+color
+Title text
+#uhu_xp_9501 h4
+85
+||
+setting85
+中部插件：uhu_xp_9501标题边框颜色
+cssselect_20_1
+
+border-color
+Title border
+#uhu_xp_9501 h4
+86
+||
+setting86
+中部插件：uhu_xp_9501标题背景颜色
+cssselect_20_1
+
+background-color
+Title background
+#uhu_xp_9501 h4
+87
+||
+setting87
+uhu_xp_9501产品背景颜色
+cssselect_20_2
+
+background-color
+Product background
+#uhu_xp_9501 .block_content ul li
+88
+||
+setting88
+中部插件：uhu_xp_9501产品边框颜色
+cssselect_20_2
+
+border-color
+Product border
+#uhu_xp_9501 .block_content ul li
+89
+||
+setting89
+中部插件：uhu_xp_9501产品名称颜色
+cssselect_20_4
+
+color
+Product title
+#uhu_xp_9501 .block_content ul li h5 a
+90
+||
+setting90
+中部插件：uhu_xp_9501产品简介颜色
+cssselect_20_5
+
+color
+Product description
+#uhu_xp_9501 .block_content ul li .product_desc
+91
+||
+setting91
+中部插件：uhu_xp_9501产品价格颜色
+cssselect_20_21
+
+color
+Product price
+#uhu_xp_9501 .block_content ul li p.price_container span.price
+92
+||
+setting92
+中部插件：uhu_xp_9501购买图标文字颜色
+cssselect_20_8
+
+color
+Button icon text
+#uhu_xp_9501 .block_content ul li .button-flat-highlight i.icon-shopping-cart
+93
+||
+setting93
+中部插件：uhu_xp_9501购买图标背景颜色
+cssselect_20_8
+
+background-color
+Button icon background
+#uhu_xp_9501 .block_content ul li .button-flat-highlight i.icon-shopping-cart
+94
+#FFFFFF|#FFFFFF|#FFFFFF
+setting94
+中部插件：uhu_xp_9501购买按钮文字颜色
+cssselect_20_9
+
+color
+Button text
+#uhu_xp_9501 .block_content ul li .button-flat-highlight i.text
+95
+#892418|#892418|#892418
+setting95
+中部插件：uhu_xp_9501购买按钮背景颜色
+cssselect_20_9
+
+background-color
+Button background
+#uhu_xp_9501 .block_content ul li .button-flat-highlight i.text
+96
+||
+setting96
+中部插件：uhu_xp_9501标签文字颜色
+cssselect_20_12
+
+color
+Labal text
+#uhu_xp_9501 .block_content ul li span span
+97
+||
+setting97
+中部插件：uhu_xp_9501标签背景颜色
+cssselect_20_11
+
+color
+Label background
+#uhu_xp_9501 .block_content ul li span i
+98
+||
+setting98
+中部插件：uhu_cp_1901框架背景颜色
+cssselect_29_0
+
+background-color
+Background
+#uhu_cp_1901
+99
+||
+setting99
+中部插件：uhu_cp_1901框架边框颜色
+cssselect_29_0
+
+border-color
+Border
+#uhu_cp_1901
+100
+||
+setting100
+中部插件：uhu_cp_1901标题文字颜色
+cssselect_29_2
+
+color
+Title text
+#uhu_cp_1901 .title_block
+101
+||
+setting101
+中部插件：uhu_cp_1901标题边框颜色
+cssselect_29_2
+
+border-color
+Title border
+#uhu_cp_1901 .title_block
+102
+||
+setting102
+中部插件：uhu_cp_1901标题背景颜色
+cssselect_29_2
+
+background-color
+Title background
+#uhu_cp_1901 .title_block
+103
+||
+setting103
+中部插件：uhu_cp_1901产品背景颜色
+cssselect_29_1
+
+background-color
+Product background
+#uhu_cp_1901 .block_content ul li
+104
+||
+setting104
+中部插件：uhu_cp_1901产品边框颜色
+cssselect_29_1
+
+border-color
+Product border
+#uhu_cp_1901 .block_content ul li
+105
+||
+setting105
+中部插件：uhu_cp_1901产品名称颜色
+cssselect_29_5
+
+color
+Product title
+#uhu_cp_1901 .block_content ul li h5 a
+106
+||
+setting106
+中部插件：uhu_cp_1901产品简介颜色
+cssselect_29_16
+
+color
+Product description
+#uhu_cp_1901 .block_content ul li .product_desc
+107
+||
+setting107
+中部插件：uhu_cp_1901产品价格颜色
+cssselect_29_12
+
+color
+Product price
+#uhu_cp_1901 .block_content ul li p.price_container
+108
+#FFFFFF|#FFFFFF|#FFFFFF
+setting108
+中部插件：uhu_cp_1901标签文字颜色
+cssselect_29_15
+
+color
+Labal text
+#uhu_cp_1901 .block_content ul li span span
+109
+#DF1A14|#DF1A14|#DF1A14
+setting109
+中部插件：uhu_cp_1901标签背景颜色
+cssselect_29_14
+
+color
+Label background
+#uhu_cp_1901 .block_content ul li span.label i
+110
+||
+setting110
+uhu_xp_9502框架背景颜色
+cssselect_21_0
+
+background-color
+Background
+#uhu_xp_9502
+111
+||
+setting111
+uhu_xp_9502框架边框颜色
+cssselect_21_0
+
+border-color
+Border
+#uhu_xp_9502
+112
+||
+setting112
+uhu_xp_9502标题文字颜色
+cssselect_21_1
+
+color
+Title text
+#uhu_xp_9502 h4
+113
+||
+setting113
+uhu_xp_9502标题边框颜色
+cssselect_21_1
+
+border-color
+Title border
+#uhu_xp_9502 h4
+114
+||
+setting114
+uhu_xp_9502标题背景颜色
+cssselect_21_1
+
+background-color
+Title background
+#uhu_xp_9502 h4
+115
+||
+setting115
+uhu_xp_9502产品背景颜色
+cssselect_21_2
+
+background-color
+Product background
+#uhu_xp_9502 .block_content ul li
+116
+transparent|transparent|transparent
+setting116
+uhu_xp_9502产品边框颜色
+cssselect_21_2
+
+border-color
+Product border
+#uhu_xp_9502 .block_content ul li
+117
+#FFFFFF|#FFFFFF|#FFFFFF
+setting117
+uhu_xp_9502产品名称颜色
+cssselect_21_4
+
+color
+Product title
+#uhu_xp_9502 .block_content ul li h5 a
+118
+||
+setting118
+uhu_xp_9502产品简介颜色
+cssselect_21_5
+
+color
+Product description
+#uhu_xp_9502 .block_content ul li .product_desc
+119
+||
+setting119
+uhu_xp_9502价格框背景色
+cssselect_21_6
+
+background-color
+Price Container Background
+#uhu_xp_9502 .block_content ul li p.price_container
+120
+||
+setting120
+uhu_xp_9502购买图标文字颜色
+cssselect_21_8
+
+color
+Button icon text
+#uhu_xp_9502 .block_content ul li .button-flat-highlight i.icon-shopping-cart
+121
+||
+setting121
+uhu_xp_9502购买图标背景颜色
+cssselect_21_8
+
+background-color
+Button icon background
+#uhu_xp_9502 .block_content ul li .button-flat-highlight i.icon-shopping-cart
+122
+||
+setting122
+uhu_xp_9502购买按钮文字颜色
+cssselect_21_9
+
+color
+Button text
+#uhu_xp_9502 .block_content ul li .button-flat-highlight i.text
+123
+#892418|#892418|#892418
+setting123
+uhu_xp_9502购买按钮背景颜色
+cssselect_21_9
+
+background-color
+Button background
+#uhu_xp_9502 .block_content ul li .button-flat-highlight i.text
+124
+||
+setting124
+uhu_xp_9502价格颜色
+cssselect_21_15
+
+color
+Product price
+#uhu_xp_9502 .block_content ul li p.price_container span.price
+125
+#830202|#830202|#830202
+setting125
+uhu_xp_9502标签背景颜色
+cssselect_21_20
+
+background-color
+Background controls-direction
+#uhu_xp_9502 .block_content .bx-controls i
+126
+||
+setting126
+中部插件：uhu_tj_9502框架背景颜色
+cssselect_28_0
+
+background-color
+Background
+#uhu_tj_9502
+127
+||
+setting127
+中部插件：uhu_tj_9502框架边框颜色
+cssselect_28_0
+
+border-color
+Border
+#uhu_tj_9502
+128
+#FFFFFF|#FFFFFF|#FFFFFF
+setting128
+中部插件：uhu_tj_9502当前标题文字颜色
+cssselect_28_30
+
+color
+Title selected text
+#uhu_tj_9502 .nav-tabs a:hover, #uhu_tj_9502 .nav-tabs > li.active > a
+129
+#503E3A|#434343|#830202
+setting129
+中部插件：uhu_tj_9502标题边框颜色
+cssselect_28_1
+
+border-color
+Title border
+#center_column  #uhu_tj_9502 .nav-tabs
+130
+||
+setting130
+中部插件：uhu_tj_9502标题背景颜色
+cssselect_28_1
+
+background-color
+Title background
+#center_column  #uhu_tj_9502 .nav-tabs
+131
+||
+setting131
+中部插件：uhu_tj_9502产品背景颜色
+cssselect_28_5
+
+background-color
+Product background
+#uhu_tj_9502 #more_info_sheets ul.pd li
+132
+||
+setting132
+中部插件：uhu_tj_9502产品边框颜色
+cssselect_28_5
+
+border-color
+Product border
+#uhu_tj_9502 #more_info_sheets ul.pd li
+133
+||
+setting133
+中部插件：uhu_tj_9502产品名称颜色
+cssselect_28_8
+
+color
+Product title
+#uhu_tj_9502 #more_info_sheets ul.pd li h5 a
+134
+||
+setting134
+中部插件：uhu_tj_9502产品简介颜色
+cssselect_28_9
+
+color
+Product description
+#uhu_tj_9502 #more_info_sheets ul.pd li .product_desc
+135
+||
+setting135
+中部插件：uhu_tj_9502产品价格颜色
+cssselect_28_11
+
+color
+Product price
+#uhu_tj_9502 #more_info_sheets ul.pd li p.price_container
+136
+||
+setting136
+中部插件：uhu_tj_9502购买图标文字颜色
+cssselect_28_13
+
+color
+Button icon text
+#uhu_tj_9502 #more_info_sheets ul.pd li a.button-flat-highlight i.icon-shopping-cart, #uhu_tj_9502 #more_info_sheets ul.pd li span.button-flat-highlight i.icon-shopping-cart
+137
+||
+setting137
+中部插件：uhu_tj_9502购买图标背景颜色
+cssselect_28_13
+
+background-color
+Button icon background
+#uhu_tj_9502 #more_info_sheets ul.pd li a.button-flat-highlight i.icon-shopping-cart, #uhu_tj_9502 #more_info_sheets ul.pd li span.button-flat-highlight i.icon-shopping-cart
+138
+||
+setting138
+中部插件：uhu_tj_9502购买按钮文字颜色
+cssselect_28_14
+
+color
+Button text
+#uhu_tj_9502 #more_info_sheets ul.pd li a.button-flat-highlight i.text, #uhu_tj_9502 #more_info_sheets ul.pd li span.button-flat-highlight i.text
+139
+#A78441|#A78441|#A78441
+setting139
+中部插件：uhu_tj_9502购买按钮背景颜色
+cssselect_28_37
+
+background-color
+Button background
+#uhu_tj_9502 #more_info_sheets ul.pd li .button-flat-highlight i.text, #uhu_tj_9502 #more_info_sheets ul.pd li .button-flat-highlight i.text:after
+140
+||
+setting140
+中部插件：uhu_tj_9502标签文字颜色
+cssselect_28_22
+
+color
+Labal text
+#uhu_tj_9502 #more_info_sheets ul.pd li a.product_image span span
+141
+||
+setting141
+中部插件：uhu_tj_9502标签背景颜色
+cssselect_28_21
+
+color
+Label background
+#uhu_tj_9502 #more_info_sheets ul.pd li a.product_image span i
+142
+#3D2A23|#1D1D1D|#300000
+setting142
+底部插件：uhu_qt_reassure背景
+cssselect_39_0
+
+background-color
+Background
+#uhu_qt_reassure
+143
+||
+setting143
+底部插件：uhu_qt_reassure边框
+cssselect_39_0
+
+border-color
+Border
+#uhu_qt_reassure
+144
+||
+setting144
+底部插件：uhu_qt_reassure图标
+cssselect_39_3
+
+color
+Icon
+.footer-container #uhu_qt_reassure ul li i
+145
+#FFFFFF|#FFFFFF|#FFFFFF
+setting145
+底部插件：uhu_qt_reassure文字
+cssselect_39_4
+
+color
+Text
+#uhu_qt_reassure ul li span.text
+146
+#483B33|#3D3D3D|#5A0000
+setting146
+底部插件：blockcms背景
+cssselect_33_0
+
+background-color
+Background
+.footer-container #block_various_links_footer
+147
+#2C1E1B|#2F2F2F|#560005
+setting147
+底部插件：blockcms边框
+cssselect_33_0
+
+border-color
+Border
+.footer-container #block_various_links_footer
+148
+||
+setting148
+底部插件：blockmyaccountfooter背景
+cssselect_40_0
+
+background-color
+Background
+#page #footer .myaccount
+149
+||
+setting149
+底部插件：blockmyaccountfooter边框
+cssselect_40_0
+
+border-color
+Border
+#page #footer .myaccount
+150
+||
+setting150
+底部插件：uhu_ft_fblike背景
+cssselect_34_0
+
+background-color
+Background
+#uhu_ft_fblike
+151
+||
+setting151
+底部插件：uhu_ft_fblike边框
+cssselect_34_0
+
+border-color
+Border
+#uhu_ft_fblike
+152
+||
+setting152
+底部插件：uhu_ft_twnews背景
+cssselect_31_0
+
+background-color
+Background
+#page #uhu_ft_twnews
+153
+||
+setting153
+底部插件：uhu_ft_twnews边框
+cssselect_31_0
+
+border-color
+Border
+#page #uhu_ft_twnews
+154
+||
+setting154
+底部插件：uhu_qt_contactus背景
+cssselect_35_0
+
+background-color
+Background
+#uhu_qt_contactus
+155
+||
+setting155
+底部插件：uhu_qt_contactus边框
+cssselect_35_0
+
+border-color
+Border
+#uhu_qt_contactus
+156
+#D1AD5F|#C1C1C1|#8E6F6C
+setting156
+
+cssselect_16_39
+
+background-color
+Roll background
+#header .menu ul.umenu li span:after
+157
+#FFFFFF|#FFFFFF|#FFFFFF
+setting157
+
+cssselect_16_39
+
+color
+Roll text
+#header .menu ul.umenu li span:after
+158
+#FFFFFF|#FFFFFF|#FFFFFF
+setting158
+中部插件：uhu_gd_9501左右控制块颜色
+cssselect_25_7
+
+background-color
+Controls Background
+#uhu_gd_9501 .bx-controls i
+159
+#000000|#000000|#000000
+setting159
+中部插件：uhu_gd_9501左右控制块图标
+cssselect_25_7
+
+color
+Controls Icon
+#uhu_gd_9501 .bx-controls i
+160
+#FFFFFF|#FFFFFF|#FFFFFF
+setting160
+中部插件：uhu_gd_9503左右控制块颜色
+cssselect_60_7
+
+background-color
+Controls Background
+#uhu_gd_9503 .cycle-prev i, #uhu_gd_9503 .cycle-next i
+161
+#000000|#000000|#000000
+setting161
+中部插件：uhu_gd_9503左右控制块图标
+cssselect_60_7
+
+color
+Controls Icon
+#uhu_gd_9503 .cycle-prev i, #uhu_gd_9503 .cycle-next i
+162
+#302523|#232323|#8E6F6C
+setting162
+分类页面：控制条背景颜色
+cssselect_4_13
+
+background-color
+sortPagiBar Background
+#center_column .sortPagiBar
+163
+||
+setting163
+分类页面：控制条边框颜色
+cssselect_4_13
+
+border-color
+sortPagiBar Border
+#center_column .sortPagiBar
+164
+||
+setting164
+分类页面：分页控制条颜色
+cssselect_4_44
+
+background-color
+Pagination Background
+div.pagination
+165
+||
+setting165
+分类页面：分页控制条边框
+cssselect_4_44
+
+border-color
+Pagination Border
+div.pagination
+166
+||
+setting166
+
+cssselect_5_7
+
+background-color
+Background image-block
+.pb-left-column #image-block
+167
+#2C1E1B|#2F2F2F|#560005
+setting167
+产品页面：商品属性区边框
+cssselect_5_7
+
+border-color
+Border image-block
+.pb-left-column #image-block
+168
+||
+setting168
+
+cssselect_5_83
+
+background-color
+Background for box-info-product
+.box-info-product
+169
+transparent|transparent|transparent
+setting169
+
+cssselect_5_83
+
+border-color
+Border for box-info-product
+.box-info-product
+170
+#A2A2A2|#A2A2A2|#A54E4E
+setting170
+
+cssselect_5_51
+
+color
+Color for product name
+.pb-center-column h1
+171
+#2C1E1B|#2F2F2F|#560005
+setting171
+产品页面：商品缩略图边框
+cssselect_5_21
+
+border-color
+Thumbnail border
+#thumbs_list li a
+172
+||
+setting172
+产品页面：商品缩略图图标
+cssselect_5_74
+
+color
+Thumbnail icon
+#attributes .attribute_list ul li
+173
+||
+setting173
+产品页面：商品图片放大图标
+cssselect_5_11
+
+color
+Icon zoom-in
+.pb-left-column #image-block #view_full_size .span_link:after
+174
+#FFFFFF|#FFFFFF|#FFFFFF
+setting174
+
+cssselect_6_29
+
+color
+Text color step_current
+ul.step li.step_current span
+175
+#949494|#949494|#949494
+setting175
+
+cssselect_6_33
+
+color
+Text color step_todo
+ul.step li.step_todo span
+176
+#EEEEEE|#EEEEEE|#EEEEEE
+setting176
+
+cssselect_6_36
+
+color
+Text color step_done
+ul.step li.step_done a
+177
+||
+setting177
+uhu_qt_contactus logo
+cssselect_35_4
+
+background-color
+Background of logo container
+#uhu_qt_contactus .logo
+178
+||
+setting178
+copy right 背景
+cssselect_52_0
+
+background-color
+Background
+#uhu_qt_copyright
+179
+||
+setting179
+text color
+cssselect_52_1
+
+color
+Text Color
+#uhu_qt_copyright span
+180
+transparent|transparent|transparent
+setting180
+搜索条按钮颜色
+cssselect_10_2
+
+background-color
+Button Color
+#header #search_block_top .button, #search_block_top .btn.button-search
+181
+#140E0E|#090909|#0D0101
+setting181
+导航条颜色
+cssselect_3_69
+
+background-color
+Nav Color
+header .nav
+182
+||
+setting182
+uhu_xp_9501 li BG hover
+cssselect_20_23
+
+background-color
+Product Background Hover
+#uhu_xp_9501 .block_content ul li:hover
+183
+||
+setting183
+uhu_xp_9501 li Border Hover
+cssselect_20_23
+
+border-color
+Product Border Hover
+#uhu_xp_9501 .block_content ul li:hover
+184
+||
+setting184
+
+cssselect_4_56
+
+background-color
+Product Block Background
+ul.product_list li.ajax_block_product
+185
+||
+setting185
+
+cssselect_4_57
+
+background-color
+Hover Product Block Background
+ul.product_list li.ajax_block_product:hover
+186
+#DF1A14|#DF1A14|#DF1A14
+setting186
+New Label Background
+cssselect_4_68
+
+background-color
+New Label Background
+ul.product_list.grid li span.new, .new-label
+187
+#FFFFFF|#FFFFFF|#FFFFFF
+setting187
+Text in sortPagiBar
+cssselect_4_12
+
+color
+Text in sortPagiBar
+.content_sortPagiBar
+188
+#DDDDDD|#DDDDDD|#DDDDDD
+setting188
+Grid/List Icon
+cssselect_4_33
+
+color
+Grid/List Icon
+#page .sortPagiBar .view-mode a i, .content_sortPagiBar .display li a i, .content_sortPagiBar .display_m li a i
+189
+#B8AE7D|#B8AE7D|#B8AE7D
+setting189
+Grid/List Icon Selected
+cssselect_4_32
+
+color
+Grid/List Icon Selected
+#center_column .sortPagiBar strong i, .content_sortPagiBar .display li.selected i, .content_sortPagiBar .display_m li.selected i
+190
+#B8AE7D|#B8AE7D|#B8AE7D
+setting190
+Grid/List Icon Hover
+cssselect_4_104
+
+color
+Grid/List Icon Hover
+.content_sortPagiBar .display li a:hover i, .content_sortPagiBar .display_m li a:hover i
+191
+#AB8945|#AB8945|#AB8945
+setting191
+Cart Button
+cssselect_4_64
+
+background
+Cart Button
+ul.product_list.grid li .button i.text, .button.ajax_add_to_cart_button span
+192
+#E2C379|#E2C379|#E2C379
+setting192
+Cart Button Hover
+cssselect_4_63
+
+background
+Cart Button Hover
+.button.ajax_add_to_cart_button:hover span
+193
+#4A3B38|#3F3F3F|#5B0000
+setting193
+View Button
+cssselect_4_59
+
+background
+View Button
+.button.lnk_view span
+194
+||
+setting194
+View Button Hover
+cssselect_4_73
+
+background
+View Button Hover
+.button.lnk_view:hover span
+195
+||
+setting195
+中部中栏背景
+cssselect_3_23
+
+background
+center column
+#center_column
+196
+||
+setting196
+左栏背景
+cssselect_3_22
+
+background
+left column
+#left_column
+197
+||
+setting197
+左栏块背景
+cssselect_3_9
+
+background-color
+block background
+#page #left_column .block, #page #right_column .block
+198
+||
+setting198
+左栏块边框
+cssselect_3_9
+
+border-color
+block border
+#page #left_column .block, #page #right_column .block
+199
+||
+setting199
+左栏内容块背景
+cssselect_3_16
+
+background-color
+block content background
+#left_column .block .block_content, #right_column .block .block_content
+200
+||
+setting200
+左栏内容块边框
+cssselect_3_16
+
+border-color
+block content border
+#left_column .block .block_content, #right_column .block .block_content
+201
+||
+setting201
+左栏内容块正文
+cssselect_3_16
+
+color
+block content text
+#left_column .block .block_content, #right_column .block .block_content
+202
+||
+setting202
+左栏内容块链接
+cssselect_3_14
+
+color
+block content link
+.block .block_content a
+203
+||
+setting203
+button-small background
+cssselect_3_77
+
+background-color
+button-small background
+.button.button-small span
+204
+||
+setting204
+
+cssselect_3_77
+
+color
+button-small text
+.button.button-small span
+205
+||
+setting205
+
+cssselect_3_78
+
+background-color
+button-small background hover
+.button.button-small span:hover
+206
+#000000|#000000|#000000
+setting206
+
+cssselect_3_81
+
+background-color
+button Compare background
+.button.button-medium span
+207
+#ebebeb|#ebebeb|#ebebeb
+setting207
+
+cssselect_3_81
+
+color
+button Compare Text
+.button.button-medium span
+208
+#444444|#444444|#444444
+setting208
+
+cssselect_3_82
+
+background-color
+button Compare background Hover
+.button.button-medium span:hover
+209
+transparent|transparent|transparent
+setting209
+
+cssselect_4_102
+
+border-color
+Border of product image container
+ul.product_list.list > li .product-image-container, ul.product_list.grid > li .product-container .product-image-container, ul.product_list.list > li .right-block .right-block-content, #subcategories ul li .subcategory-image a
+210
+#999999|#999999|#999999
+setting210
+
+cssselect_4_20
+
+color
+color for product name
+ul.product_list a.product-name
+211
+#B8AE7D|#B8AE7D|#B8AE7D
+setting211
+
+cssselect_4_30
+
+color
+color for product price
+.price.product-price
+212
+||
+setting212
+
+cssselect_4_65
+
+color
+color for product old price
+.old-price.product-price
+213
+#770000|#770000|#770000
+setting213
+
+cssselect_4_113
+
+background-color
+background for price percent reduction
+.price-percent-reduction
+214
+#770000|#770000|#770000
+setting214
+
+cssselect_4_111
+
+background-color
+Background of In stock
+ul.product_list .availability span.available-now
+215
+||
+setting215
+
+cssselect_4_114
+
+color
+Color for Add to Compare
+ul.product_list .functional-buttons div a, ul.product_list .functional-buttons div label
+216
+||
+setting216
+
+cssselect_4_115
+
+color
+Hover for Add to Compare
+ul.product_list .functional-buttons div a:hover, ul.product_list .functional-buttons div label:hover
+217
+||
+setting217
+
+cssselect_4_21
+
+color
+Color for product desc
+ul.product_list.list li .product_desc, ul.product_list.list > li .product-desc
+218
+#333333|#333333|#333333
+setting218
+
+cssselect_4_116
+
+border-color
+Border color for column
+ul.product_list.list > li .product-container, #subcategories, .bottom-pagination-content
+219
+||
+setting219
+
+cssselect_4_4
+
+background-color
+content_scene_cat_bg
+.content_scene_cat .align_center, .content_scene_cat .content_scene_cat_bg
+220
+||
+setting220
+
+cssselect_4_118
+
+color
+content_scene_cat category-name
+.content_scene_cat span.category-name
+221
+||
+setting221
+
+cssselect_4_3
+
+color
+content_scene_cat category-desc
+.content_scene_cat
+222
+#FFFFFF|#FFFFFF|#FFFFFF
+setting222
+
+cssselect_4_2
+
+color
+category-name
+#category h1
+223
+#a8a8a8|#a8a8a8|#a8a8a8
+setting223
+
+cssselect_4_11
+
+color
+subcategory-name
+#subcategories .inline_list li .cat_name, #subcategories ul li .subcategory-name
+224
+#2C1E1B|#2F2F2F|#560005
+setting224
+
+cssselect_4_119
+
+border-color
+Border in Left Column blocks
+#categories_block_left .block_content > ul, #categories_block_left li a, .block .products-block li, .layered_filter, .block .list-block li, .block .list-block .form-group
+225
+#A78441|#A78441|#A78441
+setting225
+
+cssselect_51_12
+
+color
+color for +
+#categories_block_left li span.grower.CLOSE:before
+226
+#A78441|#A78441|#A78441
+setting226
+
+cssselect_51_7
+
+color
+color for -
+#categories_block_left li span.grower.OPEN:before, #categories_block_left li span.grower.CLOSE:before
+227
+transparent|transparent|transparent
+setting227
+
+cssselect_5_114
+
+background-color
+Background content_prices
+.content_prices
+228
+#EB4F28|#EB4F28|#EB4F28
+setting228
+
+cssselect_5_116
+
+color
+Price Color
+.our_price_display
+229
+||
+setting229
+
+cssselect_5_85
+
+background-color
+Background Button add to cart
+.box-info-product .exclusive
+230
+||
+setting230
+
+cssselect_5_91
+
+background-color
+Hover Background Button add to cart
+.box-info-product .exclusive:hover
+231
+#C05420|#C05420|#C05420
+setting231
+
+cssselect_5_86
+
+background-color
+Background Cart Icon
+.box-info-product .exclusive:before
+232
+#C05420|#C05420|#C05420
+setting232
+
+cssselect_5_163
+
+background-color
+Hover Background Cart Icon
+.box-info-product .exclusive:hover:before
+233
+#7C534F|#7C534F|#7C534F
+setting233
+
+cssselect_5_90
+
+background-color
+Background Cart Text
+.box-info-product .exclusive span
+234
+#8E6F6C|#8E6F6C|#8E6F6C
+setting234
+
+cssselect_5_164
+
+background-color
+Hover Background Cart Text
+.box-info-product .exclusive span:hover
+235
+#C05420|#C05420|#C05420
+setting235
+
+cssselect_5_89
+
+background-color
+Background Cart Line
+.box-info-product .exclusive:after
+236
+||
+setting236
+
+cssselect_5_10
+
+color
+Color View larger
+.pb-left-column #image-block #view_full_size .span_link
+237
+||
+setting237
+
+cssselect_5_165
+
+color
+Hover Color View larger
+.pb-left-column #image-block #view_full_size .span_link:hover
+238
+#A6FFAE|#A6FFAE|#A6FFAE
+setting238
+
+cssselect_5_108
+
+color
+Text
+#availability_value,#last_quantities
+239
+#FF4A7D|#FF4A7D|#FF4A7D
+setting239
+
+cssselect_5_112
+
+color
+Text out of stock
+#availability_statut #availability_value.warning_inline
+240
+#FFFFFF|#FFFFFF|#FFFFFF
+setting240
+
+cssselect_5_167
+
+color
+Text
+.socialsharing_product button
+241
+#4A3B38|#3F3F3F|#5B0000
+setting241
+
+cssselect_5_167
+
+background-color
+Background
+.socialsharing_product button
+242
+||
+setting242
+
+cssselect_5_26
+
+color
+Color view_scroll
+#view_scroll_left:before,#view_scroll_right:before
+243
+||
+setting243
+
+cssselect_5_27
+
+color
+Hover color view_scroll
+#view_scroll_left:hover:before, #view_scroll_right:hover:before
+244
+#4A3B38|#3F3F3F|#5B0000
+setting244
+
+cssselect_5_22
+
+border-color
+Border thumbnail Hover
+#thumbs_list li a:hover, #thumbs_list li a.shown
+245
+#777777|#777777|#777777
+setting245
+
+cssselect_5_38
+
+color
+Color usefull_link
+#usefull_link_block li a
+246
+#AAAAAA|#AAAAAA|#AAAAAA
+setting246
+
+cssselect_5_40
+
+color
+Hover usefull_link
+#usefull_link_block li a:hover
+247
+||
+setting247
+
+cssselect_2_11
+
+background-color
+Background more info
+.page-product-box
+248
+transparent|transparent|transparent
+setting248
+
+cssselect_2_11
+
+border-color
+Border  more info
+.page-product-box
+249
+#A2A2A2|#A2A2A2|#A2A2A2
+setting249
+
+cssselect_2_12
+
+color
+Color more info title
+h3.page-product-heading
+250
+||
+setting250
+
+cssselect_2_12
+
+background-color
+background more info title
+h3.page-product-heading
+251
+||
+setting251
+
+cssselect_2_11
+
+color
+Color more info text
+.page-product-box
+252
+#2C1E1B|#2F2F2F|#8E6F6C
+setting252
+
+cssselect_5_170
+
+border-color
+Border data sheet
+.table-data-sheet, .table-data-sheet tr, .table-data-sheet tr td:first-child, #product_comments_block_tab div.comment .comment_details, #product_comments_block_tab div.comment, #product p#loyalty
+253
+||
+setting253
+
+cssselect_5_96
+
+color
+Color data sheet head
+.table-data-sheet tr td:first-child
+254
+transparent|transparent|transparent
+setting254
+
+cssselect_21_14
+
+background-color
+Background content
+#uhu_xp_9502 .block_content
+255
+#FFFFFF|#FFFFFF|#FFFFFF
+setting255
+
+cssselect_21_20
+
+color
+Color controls-direction
+#uhu_xp_9502 .block_content .bx-controls i
+256
+||
+setting256
+
+cssselect_3_84
+
+color
+Foot Link Hover
+.footer-container #footer a:hover
+257
+#DCBF71|#C1C1C1|#8E6F6C
+setting257
+
+cssselect_41_10
+
+background-color
+Background  for shopping_cart
+#header .shopping_cart > a:first-child
+258
+||
+setting258
+
+cssselect_41_10
+
+border-color
+Border for shopping_cart
+#header .shopping_cart > a:first-child
+259
+||
+setting259
+
+cssselect_41_10
+
+color
+Text for shopping_cart
+#header .shopping_cart > a:first-child
+260
+#560100|#1D1D1D|#FFFFFF
+setting260
+
+cssselect_41_9
+
+color
+Color Cart Icon
+#header .shopping_cart > a:first-child:before
+261
+||
+setting261
+
+cssselect_41_11
+
+color
+Color for Cart Text
+.shopping_cart > a:first-child b
+262
+#FFFFFF|#FFFFFF|#FFFFFF
+setting262
+
+cssselect_41_0
+
+background-color
+Background cart_block
+#page #header .cart_block
+263
+#6D6D6D|#6D6D6D|#6D6D6D
+setting263
+
+cssselect_41_0
+
+color
+Text cart_block
+#page #header .cart_block
+264
+#6D6D6D|#6D6D6D|#6D6D6D
+setting264
+
+cssselect_41_16
+
+color
+Link cart_block
+#header .cart_block a, #header .cart_block .cart_block_list .remove_link a, #header .cart_block .cart_block_list .ajax_cart_block_remove_link
+265
+||
+setting265
+
+cssselect_41_19
+
+color
+Hover cart_block
+#header .cart_block a:hover, #header .cart_block .cart_block_list .remove_link a:hover, #header .cart_block .cart_block_list .ajax_cart_block_remove_link:hover
+266
+#C10611|#1193C6|#F5D40B
+setting266
+
+cssselect_41_20
+
+background-color
+Background check_out
+.cart_block .cart-buttons a#button_order_cart
+267
+#C4575E|#46A4C9|#F5DD4D
+setting267
+
+cssselect_41_22
+
+background-color
+Hover Background check_out
+.cart_block .cart-buttons a#button_order_cart:hover
+268
+||
+setting268
+
+cssselect_41_21
+
+color
+Text check_out
+.cart_block .cart-buttons a#button_order_cart span
+269
+||
+setting269
+
+cssselect_3_86
+
+background-color
+Background Footer Top
+.footer-container .footer_nav
+270
+#4A3B38|#3F3F3F|#8E6F6C
+setting270
+
+cssselect_6_30
+
+background-color
+Background step_current
+ul.step li.step_current, ul.step li.step_current span:after
+271
+transparent|transparent|transparent
+setting271
+
+cssselect_6_34
+
+background-color
+Background step_todo
+ul.step li.step_todo, ul.step li.step_todo span:after
+272
+#302523|#232323|#370101
+setting272
+
+cssselect_6_37
+
+background-color
+Background step_done
+ul.step li.step_done, ul.step li.step_done a:after, ul.step li.step_done.step_done_last a:after
+273
+#4A3B38|#3F3F3F|#8E6F6C
+setting273
+
+cssselect_6_30
+
+border-color
+Border step_current
+ul.step li.step_current, ul.step li.step_current span:after
+274
+transparent|transparent|transparent
+seting274
+
+cssselect_6_34
+
+border-color
+Border step_todo
+ul.step li.step_todo, ul.step li.step_todo span:after
+275
+#302523|#232323|#370101
+seting275
+
+cssselect_6_37
+
+border-color
+Border step_done
+ul.step li.step_done, ul.step li.step_done a:after, ul.step li.step_done.step_done_last a:after
+276
+#A54E4E|#A54E4E|#A54E4E
+seting276
+
+cssselect_6_0
+
+color
+Color page-heading
+.page-heading
+277
+#302523|#232323|#4A2E2B
+seting277
+
+cssselect_6_0
+
+border-color
+Border page-heading
+.page-heading
+278
+#2C1E1B|#2F2F2F|#8E6F6C
+seting278
+
+cssselect_6_8
+
+border-color
+Border Top for cart_summary
+.table-bordered
+279
+#2C1E1B|#2F2F2F|#8E6F6C
+seting279
+
+cssselect_6_9
+
+border-color
+Border for cart_summary
+.table-bordered > thead > tr > th, .table-bordered > thead > tr > td, .table-bordered > tbody > tr > th, .table-bordered > tbody > tr > td, .table-bordered > tfoot > tr > th, .table-bordered > tfoot > tr > td
+280
+#2C1E1B|#2F2F2F|#8E6F6C
+seting280
+
+cssselect_6_10
+
+border-color
+Border for cart_summary title
+.table > thead > tr > th
+281
+#999999|#999999|#999999
+seting281
+
+cssselect_6_10
+
+color
+Text for cart_summary title
+.table > thead > tr > th
+282
+||
+seting282
+
+cssselect_6_10
+
+background-color
+Background for cart_summary title
+.table > thead > tr > th
+283
+||
+seting283
+
+cssselect_6_11
+
+background-color
+Background for cart_summary foot
+.table tfoot tr
+284
+#646464|#646464|#646464
+seting284
+
+cssselect_6_11
+
+color
+Text  for cart_summary foot
+.table tfoot tr
+285
+||
+seting285
+
+cssselect_6_12
+
+background-color
+Background for total_price
+#cart_summary tfoot td#total_price_container
+286
+||
+seting286
+
+cssselect_6_12
+
+color
+Text  for total_price
+#cart_summary tfoot td#total_price_container
+287
+||
+seting287
+
+cssselect_6_13
+
+color
+Text  for cart_quantity
+.cart_quantity .cart_quantity_input
+288
+||
+seting288
+
+cssselect_6_13
+
+background-color
+Background for cart_quantity
+.cart_quantity .cart_quantity_input
+289
+||
+seting289
+
+cssselect_6_14
+
+color
+Text for button plus and minus
+.btn.button-plus span, .btn.button-minus span
+290
+#2C1E1B|#2F2F2F|#8E6F6C
+seting290
+
+cssselect_6_52
+
+border-color
+Border for button plus and minus
+.cart_quantity .cart_quantity_input, .btn.button-plus span, .btn.button-minus span
+291
+||
+seting291
+
+cssselect_6_14
+
+background-color
+Background for button plus and minus
+.btn.button-plus span, .btn.button-minus span
+292
+||
+seting292
+
+cssselect_6_15
+
+color
+color for delete icon
+.cart_delete a.cart_quantity_delete, a.price_discount_delete
+293
+||
+seting293
+
+cssselect_6_16
+
+background-color
+Background for address box
+.box
+294
+#2C1E1B|#2F2F2F|#8E6F6C
+seting294
+
+cssselect_6_16
+
+border-color
+Border for address box
+.box
+295
+#999999|#999999|#999999
+seting295
+
+cssselect_6_16
+
+color
+Text for address box
+.box
+296
+#A2A2A2|#A2A2A2|#A2A2A2
+seting296
+
+cssselect_6_17
+
+color
+Text for address title
+.page-heading span.heading-counter
+297
+transparent|transparent|transparent
+seting297
+
+cssselect_6_0
+
+background-color
+Background page-heading
+.page-heading
+298
+||
+seting298
+
+cssselect_20_3
+
+background-color
+Background product title
+#uhu_xp_9501 .block_content ul li h5
+299
+||
+seting299
+
+cssselect_21_3
+
+background-color
+Background product title
+#uhu_xp_9502 .block_content ul li h5
+300
+||
+seting300
+
+cssselect_28_7
+
+background-color
+Background product title
+#uhu_tj_9502 #more_info_sheets ul.pd li h5
+301
+#FFFFFF|#FFFFFF|#FFFFFF
+seting301
+
+cssselect_28_19
+
+color
+Title text
+#uhu_tj_9502 .nav-tabs a
+302
+#BBBBBB|#BBBBBB|#BBBBBB
+setting302
+
+cssselect_16_43
+
+color
+Popmenu Link
+#header .menu .nav_item li .nav_pop a, #header .menu .mobile li ul li a
+303
+#999999|#999999|#999999
+setting303
+
+cssselect_3_69
+
+color
+Nav Text
+header .nav
+304
+||
+setting304
+
+cssselect_4_46
+
+color
+Text
+.top-pagination-content ul.pagination li > a, .top-pagination-content ul.pagination li > span, .bottom-pagination-content ul.pagination li > a, .bottom-pagination-content ul.pagination li > span
+305
+transparent|transparent|transparent
+setting305
+
+cssselect_4_46
+
+background-color
+Background
+.top-pagination-content ul.pagination li > a, .top-pagination-content ul.pagination li > span, .bottom-pagination-content ul.pagination li > a, .bottom-pagination-content ul.pagination li > span
+306
+#333333|#333333|#333333
+setting306
+
+cssselect_4_46
+
+border-color
+Border
+.top-pagination-content ul.pagination li > a, .top-pagination-content ul.pagination li > span, .bottom-pagination-content ul.pagination li > a, .bottom-pagination-content ul.pagination li > span
+307
+#999999|#999999|#999999
+setting307
+
+cssselect_4_48
+
+color
+Current Text
+.top-pagination-content ul.pagination li.active > span, .bottom-pagination-content ul.pagination li.active > span
+308
+transparent|transparent|transparent
+setting308
+
+cssselect_4_48
+
+background-color
+Current Background
+.top-pagination-content ul.pagination li.active > span, .bottom-pagination-content ul.pagination li.active > span
+309
+#CCCCCC|#CCCCCC|#CCCCCC
+setting309
+
+cssselect_4_48
+
+border-color
+Current Border
+.top-pagination-content ul.pagination li.active > span, .bottom-pagination-content ul.pagination li.active > span
+310
+#FFFFFF|#FFFFFF|#FFFFFF
+setting310
+
+cssselect_4_51
+
+color
+Hover Text
+.top-pagination-content ul.pagination li > a:hover span, .bottom-pagination-content ul.pagination li > a:hover span
+311
+#F5D40B|#C10611|#1193C6
+setting311
+
+cssselect_4_51
+
+background-color
+Hover Background
+.top-pagination-content ul.pagination li > a:hover span, .bottom-pagination-content ul.pagination li > a:hover span
+312
+#F5D40B|#C10611|#1193C6
+setting312
+
+cssselect_4_52
+
+color
+Text
+.top-pagination-content div.pagination .showall .btn span, .bottom-pagination-content div.pagination .showall .btn span
+313
+#232323|#232323|#232323
+setting313
+
+cssselect_4_52
+
+background-color
+Background
+.top-pagination-content div.pagination .showall .btn span, .bottom-pagination-content div.pagination .showall .btn span
+314
+#232323|#232323|#232323
+setting314
+
+cssselect_4_52
+
+border-color
+Border
+.top-pagination-content div.pagination .showall .btn span, .bottom-pagination-content div.pagination .showall .btn span
+315
+#999999|#999999|#999999
+setting315
+
+cssselect_51_5
+
+color
+Category 1st Link
+#categories_block_left li a
+316
+#999999|#999999|#999999
+setting316
+
+cssselect_51_10
+
+color
+Category 2nd Link
+#categories_block_left li ul li a
+317
+#2C1E1B|#2F2F2F|#8E6F6C
+setting317
+
+cssselect_2_12
+
+border-color
+Border
+h3.page-product-heading
+318
+transparent|transparent|transparent
+setting318
+
+cssselect_5_81
+
+background-color
+Background
+.product_attributes,.box-cart-bottom
+319
+#4A3B38|#3F3F3F|#8E6F6C
+setting319
+
+cssselect_5_81
+
+border-color
+Border
+.product_attributes,.box-cart-bottom
+320
+transparent|transparent|transparent
+setting320
+
+cssselect_5_82
+
+background-color
+Background
+.box-cart-bottom
+321
+transparent|transparent|transparent
+setting321
+
+cssselect_5_82
+
+border-color
+Border
+.box-cart-bottom
+322
+transparent|transparent|transparent
+setting322
+
+cssselect_5_114
+
+color
+Border
+.content_prices
+323
+#999999|#999999|#999999
+setting323
+
+cssselect_6_41
+
+color
+Product Name
+.product-name a, #productscategory_list .product-name a, .accessories-block .product-name a
+324
+#2C1E1B|#2F2F2F|#8E6F6C
+setting324
+
+cssselect_6_42
+
+color
+Product Name Hover
+.product-name a:hover, #productscategory_list .product-name a:hover, .accessories-block .product-name a:hover
+325
+#A6FFAE|#A6FFAE|#A6FFAE
+setting325
+
+cssselect_6_40
+
+color
+In Stock
+.label-success
+326
+#999999|#999999|#999999
+setting326
+
+cssselect_6_21
+
+color
+Text
+.page-subheading
+327
+#2C1E1B|#2F2F2F|#8E6F6C
+setting327
+
+cssselect_6_21
+
+border-color
+Border
+.page-subheading
+328
+||
+setting328
+
+cssselect_53_19
+
+color
+Text
+#product_comments_block_extra
+329
+#2C1E1B|#2F2F2F|#8E6F6C
+setting329
+
+cssselect_53_19
+
+border-color
+Border
+#product_comments_block_extra
+330
+#4A3B38|#3F3F3F|#8E6F6C
+setting330
+
+cssselect_53_19
+
+background-color
+Background
+#product_comments_block_extra
+331
+#777777|#777777|#777777
+setting331
+
+cssselect_53_20
+
+color
+Link
+.comments_advices a
+332
+#AAAAAA|#AAAAAA|#AAAAAA
+setting332
+
+cssselect_53_21
+
+color
+Hover Link
+.comments_advices a:hover
+333
+#999999|#999999|#999999
+setting333
+
+cssselect_53_17
+
+background-color
+Background Icon
+.comments_advices a:before
+334
+#FF4A7D|#FF4A7D|#FF4A7D
+setting334
+
+cssselect_53_14
+
+color
+Star
+#product_comments_block_extra div.star_on:after, #product_comments_block_tab div.star_on:after, div.star.star_on:after
+335
+||
+setting335
+
+cssselect_3_95
+
+background-color
+Foorer Bottom Background
+.footer-container .footer_banner
+336
+||
+setting336
+
+cssselect_32_4
+
+color
+Text Color
+#footer #newsletter_block_left .form-group .form-control
+337
+||
+setting337
+
+cssselect_32_4
+
+background-color
+Background
+#footer #newsletter_block_left .form-group .form-control
+338
+#2C1E1B|#333333|#560100
+setting338
+
+cssselect_32_4
+
+border-color
+Border
+#footer #newsletter_block_left .form-group .form-control
+339
+#DDDDDD|#DDDDDD|#DDDDDD
+setting339
+
+cssselect_32_5
+
+color
+Icon Color
+#footer #newsletter_block_left .form-group .button-small
+340
+||
+setting340
+
+cssselect_32_5
+
+background-color
+Icon Background
+#footer #newsletter_block_left .form-group .button-small
+341
+#483B33|#483B33|#483B33
+setting341
+
+cssselect_3_69
+
+border-color
+Nav Border
+header .nav
+342
+||
+setting342
+
+cssselect_43_0
+
+background-color
+Background for Advertising 1901
+#uhu_gj_1901
+343
+#2E2321|#232323|#370101
+setting343
+
+cssselect_27_0
+
+background-color
+Background for Advertising 9511
+#uhu_gj_9511
+344
+||
+setting344
+
+cssselect_46_0
+
+background-color
+Background for Advertising 9521
+#uhu_gj_9521
+345
+||
+setting345
+
+cssselect_45_0
+
+background-color
+Background for Advertising 9531
+#uhu_gj_9531
+346
+||
+setting346
+
+cssselect_55_0
+
+background-color
+Background for Advertising 9541
+#uhu_gj_9541
+347
+#A5897B|#A5897B|#A5897B
+setting347
+
+cssselect_33_4
+
+color
+Footer Info Link
+.footer-container #block_various_links_footer ul li a
+348
+#A2A2A2|#A2A2A2|#A2A2A2
+setting348
+
+cssselect_2_22
+
+color
+Link Hover
+a:hover, a:focus
+349
+||
+setting349
+
+cssselect_25_0
+
+background-color
+Background
+#uhu_gd_9501
+350
+||
+setting350
+
+cssselect_60_0
+
+background-color
+Background
+#uhu_gd_9503
+351
+#E3C3B5|#E3C3B5|#E3C3B5
+setting351
+
+cssselect_60_16
+
+color
+Title slider 1
+#uhu_gd_9503 .block_content ul li.slide0 h1
+352
+#E3C3B5|#E3C3B5|#E3C3B5
+setting352
+
+cssselect_60_17
+
+color
+Title slider 2
+#uhu_gd_9503 .block_content ul li.slide1 h1
+353
+#FFFFFF|#FFFFFF|#FFFFFF
+setting353
+
+cssselect_60_18
+
+color
+Title slider 3
+#uhu_gd_9503 .block_content ul li.slide2 h1
+354
+#C3B4A7|#C3B4A7|#C3B4A7
+setting354
+
+cssselect_60_19
+
+color
+Text slider 1
+#uhu_gd_9503 .block_content ul li.slide0 p
+355
+#C3B4A7|#C3B4A7|#C3B4A7
+setting355
+
+cssselect_60_20
+
+color
+Text slider 2
+#uhu_gd_9503 .block_content ul li.slide1 p
+356
+#FFFFFF|#FFFFFF|#FFFFFF
+setting356
+
+cssselect_60_21
+
+color
+Text slider 3
+#uhu_gd_9503 .block_content ul li.slide2 p
+357
+#F8D8CA|#F8D8CA|#F8D8CA
+setting357
+
+cssselect_60_22
+
+color
+Link slide 1
+#uhu_gd_9503 .block_content ul li.slide0 span
+358
+#F8D8CA|#F8D8CA|#F8D8CA
+setting358
+
+cssselect_60_23
+
+color
+Link slide 2
+#uhu_gd_9503 .block_content ul li.slide1 span
+359
+#FFFFFF|#FFFFFF|#FFFFFF
+setting359
+
+cssselect_60_24
+
+color
+Link slide 3
+#uhu_gd_9503 .block_content ul li.slide2 span
+360
+||
+setting360
+
+cssselect_57_0
+
+background-color
+Background for Advertising 9551
+#uhu_gj_9551
+361
+||
+setting361
+
+cssselect_49_0
+
+background-color
+Background for Advertising 9561
+#uhu_gj_9561
+362
+||
+setting362
+
+cssselect_4_127
+
+background-color
+subcategories background
+#subcategories, #subcategories ul li
+363
+#FFFFFF|#FFFFFF|#FFFFFF
+setting363
+
+cssselect_3_30
+
+color
+Block Title Text
+.products_block .title_block
+364
+||
+setting364
+
+cssselect_3_30
+
+border-color
+Block Title Border
+.products_block .title_block
+365
+#483B33|#3D3D3D|#8E6F6C
+setting365
+
+cssselect_3_30
+
+background-color
+Block Title Background
+.products_block .title_block
+366
+||
+setting366
+
+cssselect_16_2
+
+border-color
+Menu item border
+#header .menu ul.nav_item li
+367
+||
+setting367
+
+cssselect_3_29
+
+background-color
+Block Background
+.products_block
+368
+|#0B0B0B|#2F1512
+setting368
+
+cssselect_3_19
+
+background-color
+Breadcrumb
+.breadcrumb
+369
+#302523|#232323|#8E6F6C
+setting369
+
+cssselect_4_56
+
+border-color
+Product Block Border
+ul.product_list li.ajax_block_product
+370
+#4A3B38|#3F3F3F|#5B0000
+setting370
+
+cssselect_4_57
+
+border-color
+Hover Product Block Border
+ul.product_list li.ajax_block_product:hover
+371
+||
+setting371
+
+cssselect_3_31
+
+border-color
+Content Block Border
+.products_block .block_content
+372
+||
+setting372
+
+cssselect_29_37
+
+color
+Button icon text
+#uhu_cp_1901 .block_content ul li .button-flat-highlight i.icon-shopping-cart
+373
+||
+setting373
+
+cssselect_29_37
+
+background-color
+Button icon background
+#uhu_cp_1901 .block_content ul li .button-flat-highlight i.icon-shopping-cart
+374
+||
+setting374
+
+cssselect_29_38
+
+color
+Button text
+#uhu_cp_1901 .block_content ul li .button-flat-highlight i.text
+375
+||
+setting375
+
+cssselect_29_38
+
+background-color
+Button background
+#uhu_cp_1901 .block_content ul li .button-flat-highlight i.text
+376
+#3B2C27|#0B0B0B|#2F1512
+setting376
+
+cssselect_3_100
+
+background-color
+Header Content Background
+header:first-child .content
+377
+||
+setting377
+
+cssselect_3_101
+
+background-color
+Header Banner Background
+header .banner
+378
+#3B2C27|#0B0B0B|#2F1512
+setting378
+
+cssselect_3_72
+
+background-color
+Slider Container Background
+#columns #columns_top, #columns #slider_row
+379
+||
+setting379
+
+cssselect_39_3
+
+background-color
+Icon Background
+.footer-container #uhu_qt_reassure ul li i
+380
+||
+setting380
+
+cssselect_3_86
+
+border-color
+Footer Top Border
+.footer-container .footer_nav
+381
+||
+setting381
+
+cssselect_3_5
+
+border-color
+Footer content Border
+.footer-container #footer
+382
+||
+setting382
+
+cssselect_3_95
+
+border-color
+Foorer Bottom Border
+.footer-container .footer_banner
+383
+#892418|#892418|#892418
+setting383
+
+cssselect_3_102
+
+background-color
+Quick View Background
+.products_block .block_content ul li .quick-view
+384
+#FFFFFF|#FFFFFF|#FFFFFF
+setting384
+
+cssselect_3_103
+
+color
+Quick View Text
+.products_block .block_content ul li .quick-view .s_title_block a
+385
+#FFFFFF|#FFFFFF|#FFFFFF
+setting385
+
+cssselect_3_104
+
+color
+Quick View Add to cart
+.products_block .block_content ul li .quick-view .button-flat-highlight i.text
+386
+#503E3A|#434343|#830202
+setting386
+
+cssselect_28_38
+
+background-color
+Background of Active Title
+#uhu_tj_9502 .nav-tabs li.active
+387
+#302523|#232323|#8E6F6C
+setting387
+
+cssselect_4_2
+
+background-color
+category-name-bg
+#category h1
+388
+#4A3B38|#3F3F3F|#5B0000
+setting388
+
+cssselect_4_2
+
+border-color
+category-name-border
+#category h1
+389
+||
+setting389
+
+cssselect_6_51
+
+background-color
+Background for cart_summary
+#order-detail-content, div.order_carrier_content, div.addresses, div.order_delivery
+390
+||
+setting390
+
+cssselect_5_0
+
+background-color
+Product block Background
+.primary_block
+391
+||
+setting391
+
+cssselect_20_6
+
+background-color
+Price Container Background
+#uhu_xp_9501 .block_content ul li p.price_container
+392
+#3B2C27|#0B0B0B|#2F1512
+setting392
+
+cssselect_3_73
+
+background-color
+content columns background
+#columns #columns_home
+393
+||
+setting393
+
+cssselect_27_0
+
+color
+Text and Border color for Advertising 9511
+#uhu_gj_9511
+394
+||
+setting394
+
+cssselect_46_0
+
+color
+Text and Border color for Advertising 9521
+#uhu_gj_9521
+395
+||
+setting395
+
+cssselect_45_0
+
+color
+Text and Border color for Advertising 9531
+#uhu_gj_9531
+396
+||
+setting396
+
+cssselect_55_0
+
+color
+Text and Border color for Advertising 9541
+#uhu_gj_9541
+397
+||
+setting397
+
+cssselect_57_0
+
+color
+Text and Border color for Advertising 9551
+#uhu_gj_9551
+398
+#503E3A|#C1C1C1|#8E6F6C
+setting398
+
+cssselect_49_0
+
+color
+Text and Border color for Advertising 9561
+#uhu_gj_9561
+399
+||
+
+
+
+
+
+
+

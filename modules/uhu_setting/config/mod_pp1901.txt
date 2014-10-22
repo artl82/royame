@@ -1,0 +1,36 @@
+0
+
+pp1901_1
+框架所占的格子数
+取值范围0-12
+
+
+
+
+1
+
+pp1901_2
+品牌总数
+需要控制的品牌数量
+pp1901_3
+true
+Number of brand to show
+
+2
+
+pp1901_3
+图片类型
+填写想使用的图片类型，在后台image处定义
+动态显示时可见的数量
+true
+Type of image to show
+define in Preferences  > Images
+3
+
+pp1901_4
+显示品牌数
+动态显示时可见的数量
+
+
+
+

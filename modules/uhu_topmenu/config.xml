@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+        <module>
+            <name>uhu_topmenu</name>
+            <displayName><![CDATA[uhu Top menu]]></displayName>
+            <version><![CDATA[4.16.6]]></version>
+            <description><![CDATA[Add a new menu on top of your shop.]]></description>
+            <author><![CDATA[uhuPage]]></author>
+            <tab><![CDATA[others]]></tab>
+            <is_configurable>0</is_configurable>
+            <need_instance>1</need_instance>
+	<limited_countries></limited_countries>
+        </module>

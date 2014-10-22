@@ -1,0 +1,90 @@
+0
+
+fblike_1
+框架所占的格子数
+取值范围0-12
+3
+false
+
+
+1
+
+fblike_2
+显示数量
+
+10
+true
+Number of Fans to show
+Nubmer of visible facebook fans
+2
+
+fblike_3
+用户名
+facebook的用户名
+prestashop
+true
+Facebook Page Name
+The name of the Facebook Page
+3
+
+fblike_4
+标题
+
+Facebook
+true
+Block Title
+The title of block on the front page
+4
+
+fblike_5
+每行显示数量
+
+5
+false
+
+
+5
+
+fblike_6
+SandBox
+用于开发
+true
+true
+sandbox
+true|false, true for test, false for live
+6
+
+fblike_7
+FB_DATA_NAME
+用于开发
+Prestashop
+false
+
+
+7
+
+fblike_8
+FB_DATA_LIKES
+用于开发
+24889
+false
+
+
+8
+
+fblike_9
+FB_DATA_ID
+用于开发
+114089955274622
+false
+
+
+9
+
+fblike_10
+是否启用本插件
+yes|no
+yes
+true
+Enable This Module
+yes|no

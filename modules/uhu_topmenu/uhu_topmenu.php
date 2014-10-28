@@ -587,16 +587,18 @@ class uhu_topmenu extends Module
 			$this->context->customer->getGroups() : array(Configuration::get('PS_UNIDENTIFIED_GROUP')));
 
 		$enable = Configuration::get('uhu_modvalue_'.$this->mod_name.'_22'); //test roll
+        //SELECT * FROM `ps_configuration` where name like '%modvalue_topmenu%'
+        //uhu_modvalue_topmenu_22 yes - включает popup в меню
 
-		if ($enable == 'yes')
-			$this->makeCategoryMenu();
+        if ($enable == 'yes')
+			//$this->makeCategoryMenu();
 
 		$this->makeCategoryMenuItems($enable);
 
 		if ($enable == 'yes')
 		{
-			$this->makeMenu();
-			$this->makeProductMenu();
+			//$this->makeMenu();
+			//$this->makeProductMenu();
 			$this->makeBrandMenu();
 		}
 		$this->makeCMSMenuItems();

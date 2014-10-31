@@ -194,3 +194,6 @@ define('_PS_SMARTY_CONSOLE_OPEN_BY_URL_', 1);
 define('_PS_SMARTY_CONSOLE_OPEN_', 2);
 
 define('_PS_JQUERY_VERSION_', '1.11.0');
+
+define('_INTERKASSA_SHOP_ID_', '544e11b3bf4efc557f074972');
+define('_INTERKASSA_SC_', 'ABQ1IKIglraipMhU');

@@ -7343,6 +7343,8 @@ p.payment_module {
       background: url(../img/bankwire.png) 15px 12px no-repeat #fbfbfb; }
     p.payment_module a.cheque {
       background: url(../img/cheque.png) 15px 15px no-repeat #fbfbfb; }
+    p.payment_module a.interkassa {
+      background: url(../img/interkassa.png) 15px 15px no-repeat #fbfbfb; }
     p.payment_module a.cash {
       background: url(../img/cash.png) 15px 15px no-repeat #fbfbfb; }
     p.payment_module a.cheque:after, p.payment_module a.bankwire:after, p.payment_module a.cash:after {

@@ -66,8 +66,11 @@
 						{if (!$PS_CATALOG_MODE AND ((isset($product.show_price) && $product.show_price) || (isset($product.available_for_order) && $product.available_for_order)))}
 							<div class="content_price" itemprop="offers" itemscope itemtype="http://schema.org/Offer">
 								{if isset($product.show_price) && $product.show_price && !isset($restricted_country_mode)}
-									<span itemprop="price" class="price product-price">
-										{if !$priceDisplay}{convertPrice price=$product.price}{else}{convertPrice price=$product.price_tax_exc}{/if}
+                                    <span itemprop="price" class="price product-price">
+                                        {if $product.price == 0}
+                                        {else}
+                                            {if !$priceDisplay}{convertPrice price=$product.price}{else}{convertPrice price=$product.price_tax_exc}{/if}
+                                        {/if}
 									</span>
 									<meta itemprop="priceCurrency" content="{$currency->iso_code}" />
 									{if isset($product.specific_prices) && $product.specific_prices && isset($product.specific_prices.reduction) && $product.specific_prices.reduction > 0}
@@ -110,10 +113,14 @@
 						{$product.description_short|strip_tags:'UTF-8'|truncate:360:'...'}
 					</p>
 					{if (!$PS_CATALOG_MODE AND ((isset($product.show_price) && $product.show_price) || (isset($product.available_for_order) && $product.available_for_order)))}
-					<div itemprop="offers" itemscope itemtype="http://schema.org/Offer" class="content_price">
+					<div itemprop="offers" itemscope itemtype="http://schema.org/Offer" class="content_price1">
 						{if isset($product.show_price) && $product.show_price && !isset($restricted_country_mode)}
-							<span itemprop="price" class="price product-price">
-								{if !$priceDisplay}{convertPrice price=$product.price}{else}{convertPrice price=$product.price_tax_exc}{/if}
+                            <span itemprop="price" class="price product-price">
+                                {if $product.price == 0}
+                                    Уточняйте у менеджера
+                                {else}
+                                    {if !$priceDisplay}{convertPrice price=$product.price}{else}{convertPrice price=$product.price_tax_exc}{/if}
+                                {/if}
 							</span>
 							<meta itemprop="priceCurrency" content="{$currency->iso_code}" />
 							{if isset($product.specific_prices) && $product.specific_prices && isset($product.specific_prices.reduction) && $product.specific_prices.reduction > 0}

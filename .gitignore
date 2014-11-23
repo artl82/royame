@@ -150,3 +150,5 @@
 /config/xml/must_have_modules_list.xml
 /config/xml/trusted_modules_list.xml
 /error_log
+/.idea/.name
+/.idea/royame.iml

@@ -2999,6 +2999,7 @@ class CartCore extends ObjectModel
 			'is_multi_address_delivery' => $this->isMultiAddressDelivery() || ((int)Tools::getValue('multi-shipping') == 1),
 			'free_ship' => $total_shipping ? 0 : 1,
 			'carrier' => new Carrier($this->id_carrier, $id_lang),
+            'haveEmptyProductPrices' => $this->haveEmptyProductPrices()
 		);
 	}
 

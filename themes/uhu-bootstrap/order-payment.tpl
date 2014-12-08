@@ -62,24 +62,33 @@
 									</tr>
 								</thead>
 								<tfoot>
-									{if $use_taxes}
-										{if $priceDisplay}
-											<tr class="cart_total_price">
-												<td colspan="4" class="text-right">{if $display_tax_label}{l s='Total products (tax excl.)'}{else}{l s='Total products'}{/if}</td>
-												<td colspan="2" class="price" id="total_product">{displayPrice price=$total_products}</td>
-											</tr>
-										{else}
-											<tr class="cart_total_price">
-												<td colspan="4" class="text-right">{if $display_tax_label}{l s='Total products (tax incl.)'}{else}{l s='Total products'}{/if}</td>
-												<td colspan="2" class="price" id="total_product">{displayPrice price=$total_products_wt}</td>
-											</tr>
-										{/if}
-									{else}
-										<tr class="cart_total_price">
-											<td colspan="4" class="text-right">{l s='Total products'}</td>
-											<td colspan="2" class="price" id="total_product">{displayPrice price=$total_products}</td>
-										</tr>
-									{/if}
+                                {if $haveEmptyProductPrices}
+
+                                {else}
+                                    {if $use_taxes}
+                                        {if $priceDisplay}
+                                            <tr class="cart_total_price">
+                                                <td colspan="4"
+                                                    class="text-right">{if $display_tax_label}{l s='Total products (tax excl.)'}{else}{l s='Total products'}{/if}</td>
+                                                <td colspan="2" class="price"
+                                                    id="total_product">{displayPrice price=$total_products}</td>
+                                            </tr>
+                                        {else}
+                                            <tr class="cart_total_price">
+                                                <td colspan="4"
+                                                    class="text-right">{if $display_tax_label}{l s='Total products (tax incl.)'}{else}{l s='Total products'}{/if}</td>
+                                                <td colspan="2" class="price"
+                                                    id="total_product">{displayPrice price=$total_products_wt}</td>
+                                            </tr>
+                                        {/if}
+                                    {else}
+                                        <tr class="cart_total_price">
+                                            <td colspan="4" class="text-right">{l s='Total products'}</td>
+                                            <td colspan="2" class="price"
+                                                id="total_product">{displayPrice price=$total_products}</td>
+                                        </tr>
+                                    {/if}
+                                {/if}
 									<tr class="cart_total_voucher" {if $total_wrapping == 0}style="display:none"{/if}>
 										<td colspan="4" class="text-right">
 											{if $use_taxes}
@@ -163,7 +172,11 @@
 										<tr class="cart_total_price">
 											<td colspan="4" class="total_price_container text-right"><span>{l s='Total'}</span></td>
 											<td colspan="2" class="price" id="total_price_container">
-												<span id="total_price">{displayPrice price=$total_price}</span>
+                                                {if $haveEmptyProductPrices}
+                                                    Уточните у менеджера
+                                                {else}
+                                                    <span id="total_price">{displayPrice price=$total_price}</span>
+                                                {/if}
 											</td>
 										</tr>
 									{else}
@@ -203,7 +216,11 @@
 											<span>{l s='Total'}</span>
 										</td>
 										<td colspan="1" class="price total_price_container" id="total_price_container">
-											<span id="total_price">{displayPrice price=$total_price_without_tax}</span>
+                                            {if $haveEmptyProductPrices}
+                                                Уточните у менеджера
+                                            {else}
+                                                <span id="total_price">{displayPrice price=$total_price_without_tax}</span>
+                                            {/if}
 										</td>
 									</tr>
 									{/if}

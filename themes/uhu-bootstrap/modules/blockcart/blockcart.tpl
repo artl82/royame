@@ -71,11 +71,13 @@
 												</div>
 											{/if}
 											<span class="price">
-												{if !isset($product.is_gift) || !$product.is_gift}
-													{if $priceDisplay == $smarty.const.PS_TAX_EXC}{displayWtPrice p="`$product.total`"}{else}{displayWtPrice p="`$product.total_wt`"}{/if}
-												{else}
-													{l s='Free!' mod='blockcart'}
-												{/if}
+												{if $product.price > 0}
+                                                    {if !isset($product.is_gift) || !$product.is_gift}
+                                                        {if $priceDisplay == $smarty.const.PS_TAX_EXC}{displayWtPrice p="`$product.total`"}{else}{displayWtPrice p="`$product.total_wt`"}{/if}
+                                                    {else}
+                                                        {l s='Free!' mod='blockcart'}
+                                                    {/if}
+                                                {/if}
 											</span>
 										</div>
 										<span class="remove_link">
@@ -171,19 +173,21 @@
 									<span>{l s='Tax' mod='blockcart'}</span>
 								</div>
 							{/if}
-							<div class="cart-prices-line last-line">
-								<span class="price cart_block_total ajax_block_cart_total">{$total}</span>
-								<span>{l s='Total' mod='blockcart'}</span>
-							</div>
-							{if $use_taxes && $display_tax_label == 1 && $show_tax}
-								<p>
-								{if $priceDisplay == 0}
-									{l s='Prices are tax included' mod='blockcart'}
-								{elseif $priceDisplay == 1}
-									{l s='Prices are tax excluded' mod='blockcart'}
-								{/if}
-								</p>
-							{/if}
+                            {if !$haveEmptyProductPrices}
+                                <div class="cart-prices-line last-line1 {$haveEmptyProductPrices}">
+                                    <span class="price cart_block_total ajax_block_cart_total">{$total}</span>
+                                    <span>{l s='Total' mod='blockcart'}</span>
+                                </div>
+                                {if $use_taxes && $display_tax_label == 1 && $show_tax}
+                                    <p>
+                                        {if $priceDisplay == 0}
+                                            {l s='Prices are tax included' mod='blockcart'}
+                                        {elseif $priceDisplay == 1}
+                                            {l s='Prices are tax excluded' mod='blockcart'}
+                                        {/if}
+                                    </p>
+                                {/if}
+                            {/if}
 						</div>
 						<p class="cart-buttons">
 							<a id="button_order_cart" class="btn btn-default button button-small" href="{$link->getPageLink("$order_process", true)|escape:"html":"UTF-8"}" title="{l s='Check out' mod='blockcart'}" rel="nofollow">

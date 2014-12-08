@@ -129,7 +129,8 @@ class BlockCart extends Module
 			'order_process' => Configuration::get('PS_ORDER_PROCESS_TYPE') ? 'order-opc' : 'order',
 			'ajax_allowed' => (int)(Configuration::get('PS_BLOCK_CART_AJAX')) == 1 ? true : false,
 			'static_token' => Tools::getToken(false),
-			'free_shipping' => $total_free_shipping
+			'free_shipping' => $total_free_shipping,
+            'haveEmptyProductPrices' => $params['cart']->haveEmptyProductPrices()
 		));
 		if (count($errors))
 			$this->smarty->assign('errors', $errors);

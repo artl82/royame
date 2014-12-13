@@ -1,0 +1,25 @@
+mail.php send 1 template_vars=a:4:{s:9:"{product}";s:11:"testProduct";s:14:"{product_link}";s:8:"testLink";s:10:"{customer}";s:12:"testCustomer";s:6:"{name}";s:8:"testName";}
+mail.php send 2
+mail.php send 3
+mail.php send 4
+requestprices.php 2
+mail.php send 1 template_vars=a:4:{s:9:"{product}";s:11:"testProduct";s:14:"{product_link}";s:8:"testLink";s:10:"{customer}";s:12:"testCustomer";s:6:"{name}";s:8:"testName";}
+mail.php send 2
+mail.php send 3
+mail.php send 4
+requestprices.php 2
+mail.php send 1 template_vars=a:4:{s:9:"{product}";s:11:"testProduct";s:14:"{product_link}";s:8:"testLink";s:10:"{customer}";s:12:"testCustomer";s:6:"{name}";s:8:"testName";}
+mail.php send 2
+mail.php send 3
+mail.php send 4
+requestprices.php 2
+mail.php send 1 template_vars=a:4:{s:9:"{product}";s:11:"testProduct";s:14:"{product_link}";s:8:"testLink";s:10:"{customer}";s:12:"testCustomer";s:6:"{name}";s:8:"testName";}
+mail.php send 2
+mail.php send 3
+mail.php send 4
+requestprices.php 2
+mail.php send 1 template_vars=a:4:{s:9:"{product}";s:11:"testProduct";s:14:"{product_link}";s:8:"testLink";s:10:"{customer}";s:12:"testCustomer";s:6:"{name}";s:8:"testName";}
+mail.php send 2
+mail.php send 3
+mail.php send 4
+requestprices.php 2

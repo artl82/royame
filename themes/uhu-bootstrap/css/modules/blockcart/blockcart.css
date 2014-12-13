@@ -449,3 +449,7 @@
       content: "\f138"; }
   #layer_cart .crossseling #blockcart_list .bx-controls {
     overflow: hidden; }
+
+.fancybox-title-float-wrap .child {
+	display: none;
+}

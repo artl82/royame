@@ -23,6 +23,10 @@
 *  International Registered Trademark & Property of PrestaShop SA
 */
 $(document).ready(function(){
+    $('#getPrices').fancybox({
+        'hideOnContentClick': false
+    });
+
 	ajaxCart.overrideButtonsInThePage();
 
 	$(document).on('click', '.block_cart_collapse', function(e){
@@ -862,4 +866,31 @@ function crossselling_serialScroll()
 	  		hideControlOnEnd: true,
 			pager: false
 		});
+}
+
+function sendRequestPricesMail()
+{
+    var name = 'Gogi';
+    var email = 'artl82@mail.ru';
+    //debugger;
+    if (name && email) {
+        $.ajax({
+            url: baseDir + 'modules/requestprices/requestprices.php',
+            type: "POST",
+            headers: {"cache-control": "no-cache"},
+            data: {
+                action: 'sendPricesRequest',
+                name: name,
+                email: email
+            },
+            dataType: "json",
+            success: function (result) {
+                alert(result);
+                $.fancybox.close();
+                fancyMsgBox((result ? 'success' : 'error'), 'title'); 
+            }
+        });
+    }
+//    else
+//        $('#send_friend_form_error').text(stf_msg_required);
 }

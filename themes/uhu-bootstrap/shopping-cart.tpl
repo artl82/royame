@@ -99,7 +99,24 @@
 			<tfoot>
             {if $haveEmptyProductPrices}
                 <tr>
-                    <td rowspan="3" colspan="2"></td>
+                    <td rowspan="3" colspan="7">
+                        {*<h3 class="page-subheading text-right">*}
+                            {*Узнать цены*}
+                        {*</h3>*}
+                        <p class="cart_navigation clearfix">
+                            <a id="getPrices" href="#send_friend_form" onclick="sendRequestPricesMail();"
+                               class="button btn btn-default standard-checkout button-medium"
+                               title="Узнать цены" style="">
+                                <span>Узнать цены<i class="icon-chevron-right right"></i></span>
+                            </a>
+                        </p>
+                        <div style="display: none;">
+                            <div id="send_friend_form">
+                                <h3>Письмо</h3>
+                                Запрос был успешно отправлен, ожидайте письмо на электронную почту со ссылкой на страничку Вашего заказа.
+                            </div>
+                        </div>
+                    </td>
                 </tr>
             {else}
                 {if $use_taxes}
@@ -232,8 +249,7 @@
                         <td colspan="2" class="price" id="total_product">{displayPrice price=$total_products}</td>
                     </tr>
                 {/if}
-            {/if}
-				<tr{if $total_wrapping == 0} style="display: none;"{/if}>
+            	<tr{if $total_wrapping == 0} style="display: none;"{/if}>
 					<td colspan="3" class="text-right">
 						{if $use_taxes}
 							{if $display_tax_label}{l s='Total gift wrapping (tax incl.):'}{else}{l s='Total gift-wrapping cost:'}{/if}
@@ -329,6 +345,7 @@
                         {/if}
                     {/if}
 				</tr>
+            {/if}
 			</tfoot>
 			<tbody>
 				{assign var='odd' value=0}
@@ -573,12 +590,14 @@
 	<div id="HOOK_SHOPPING_CART">{$HOOK_SHOPPING_CART}</div>
 	<p class="cart_navigation clearfix">
 		{if !$opc}
+            {if !$haveEmptyProductPrices}
 			<a
 				href="{if $back}{$link->getPageLink('order', true, NULL, 'step=1&amp;back={$back}')|escape:'html':'UTF-8'}{else}{$link->getPageLink('order', true, NULL, 'step=1')|escape:'html':'UTF-8'}{/if}"
 				class="button btn btn-default standard-checkout button-medium"
 				title="{l s='Proceed to checkout'}">
 				<span>{l s='Proceed to checkout'}<i class="icon-chevron-right right"></i></span>
 			</a>
+            {/if}
 		{/if}
 		<a
 			href="{if (isset($smarty.server.HTTP_REFERER) && strstr($smarty.server.HTTP_REFERER, 'order.php')) || isset($smarty.server.HTTP_REFERER) && strstr($smarty.server.HTTP_REFERER, 'order-opc') || !isset($smarty.server.HTTP_REFERER)}{$link->getPageLink('index')}{else}{$smarty.server.HTTP_REFERER|escape:'html':'UTF-8'|secureReferrer}{/if}"

@@ -62,6 +62,7 @@
 									</tr>
 								</thead>
 								<tfoot>
+
                                 {if $haveEmptyProductPrices}
 
                                 {else}
@@ -88,7 +89,7 @@
                                                 id="total_product">{displayPrice price=$total_products}</td>
                                         </tr>
                                     {/if}
-                                {/if}
+
 									<tr class="cart_total_voucher" {if $total_wrapping == 0}style="display:none"{/if}>
 										<td colspan="4" class="text-right">
 											{if $use_taxes}
@@ -224,6 +225,7 @@
 										</td>
 									</tr>
 									{/if}
+                                {/if}
 								</tfoot>
 
 								<tbody>

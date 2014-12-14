@@ -68,6 +68,7 @@
 								{if isset($product.show_price) && $product.show_price && !isset($restricted_country_mode)}
                                     <span itemprop="price" class="price product-price">
                                         {if $product.price == 0}
+                                            Цена по запросу
                                         {else}
                                             {if !$priceDisplay}{convertPrice price=$product.price}{else}{convertPrice price=$product.price_tax_exc}{/if}
                                         {/if}

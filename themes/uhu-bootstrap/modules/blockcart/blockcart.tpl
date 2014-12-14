@@ -187,6 +187,8 @@
                                         {/if}
                                     </p>
                                 {/if}
+                            {else}
+                                Цена по запросу
                             {/if}
 						</div>
 						<p class="cart-buttons">

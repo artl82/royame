@@ -98,7 +98,7 @@
 			</thead>
 			<tfoot>
             {if $haveEmptyProductPrices}
-                
+                Цена по запросу
             {else}
                 {if $use_taxes}
                     {if $priceDisplay}

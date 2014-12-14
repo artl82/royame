@@ -23,11 +23,7 @@
 *  International Registered Trademark & Property of PrestaShop SA
 */
 $(document).ready(function(){
-    $('#getPrices').fancybox({
-        'hideOnContentClick': false
-    });
-
-	ajaxCart.overrideButtonsInThePage();
+    ajaxCart.overrideButtonsInThePage();
 
 	$(document).on('click', '.block_cart_collapse', function(e){
 		e.preventDefault();
@@ -885,9 +881,8 @@ function sendRequestPricesMail()
             },
             dataType: "json",
             success: function (result) {
-                alert(result);
                 $.fancybox.close();
-                fancyMsgBox((result ? 'success' : 'error'), 'title'); 
+                fancyMsgBox((result ? 'Запрос успешно отправлен, ожидайте письмо на электронную почту со ссылкой на Ваш заказ.' : 'Отправка запроса не удалась, обратитесь к менеджеру магазина или попробуйте позже.'), 'Запрос цен');
             }
         });
     }

@@ -64,7 +64,18 @@
 								<tfoot>
 
                                 {if $haveEmptyProductPrices}
-
+                                    <tr>
+                                        <td rowspan="3" colspan="7">
+                                            <p class="cart_navigation clearfix">
+                                                <a id="getPrices" href="#"
+                                                   onclick="sendRequestPricesMail();"
+                                                   class="button btn btn-default standard-checkout button-medium"
+                                                   title="Узнать цены" style="">
+                                                    <span>Узнать цены<i class="icon-chevron-right right"></i></span>
+                                                </a>
+                                            </p>
+                                        </td>
+                                    </tr>
                                 {else}
                                     {if $use_taxes}
                                         {if $priceDisplay}
@@ -174,7 +185,7 @@
 											<td colspan="4" class="total_price_container text-right"><span>{l s='Total'}</span></td>
 											<td colspan="2" class="price" id="total_price_container">
                                                 {if $haveEmptyProductPrices}
-                                                    Уточните у менеджера
+                                                    Цена по запросу
                                                 {else}
                                                     <span id="total_price">{displayPrice price=$total_price}</span>
                                                 {/if}
@@ -218,7 +229,7 @@
 										</td>
 										<td colspan="1" class="price total_price_container" id="total_price_container">
                                             {if $haveEmptyProductPrices}
-                                                Уточните у менеджера
+                                                Цена по запросу
                                             {else}
                                                 <span id="total_price">{displayPrice price=$total_price_without_tax}</span>
                                             {/if}
@@ -332,9 +343,13 @@
 						</div> <!-- end order-detail-content -->
 					{/if}
 					{if $opc}<div id="opc_payment_methods-content">{/if}
-					<div id="HOOK_PAYMENT">
-						{$HOOK_PAYMENT}
-					</div>
+                    {if $haveEmptyProductPrices}
+
+                    {else}
+                        <div id="HOOK_PAYMENT">
+                            {$HOOK_PAYMENT}
+                        </div>
+                    {/if}
 					{if $opc}</div> <!-- end opc_payment_methods-content -->{/if}
 				{else}
 					<p class="alert alert-warning">{l s='No payment modules have been installed.'}</p>

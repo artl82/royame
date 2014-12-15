@@ -871,7 +871,7 @@ function sendRequestPricesMail()
     //debugger;
     if (name && email) {
         $.ajax({
-            url: baseDir + 'modules/requestprices/requestprices.php',
+            url: baseDir + 'mails/requestprices.php',
             type: "POST",
             headers: {"cache-control": "no-cache"},
             data: {

@@ -18,13 +18,7 @@ if (Tools::getValue('action') == 'sendPricesRequest')
     if (!Mail::Send(1,
         'sendPricesRequest',
         'тема',
-        $templateVars, $email,
-        null,
-        null,
-        null,
-        null,
-        null,
-        dirname(__FILE__) . '/mails/')
+        $templateVars, $email)
     )
     {
         die('0');

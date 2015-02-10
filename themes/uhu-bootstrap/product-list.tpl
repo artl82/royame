@@ -67,7 +67,7 @@
 							<div class="content_price" itemprop="offers" itemscope itemtype="http://schema.org/Offer">
 								{if isset($product.show_price) && $product.show_price && !isset($restricted_country_mode)}
                                     <span itemprop="price" class="price product-price">
-                                        {if $product.price == 0}
+                                        {if $product.price == 0 || $product.manufacturer_name == 'DixiCoat'}
                                             Цена по запросу
                                         {else}
                                             {if !$priceDisplay}{convertPrice price=$product.price}{else}{convertPrice price=$product.price_tax_exc}{/if}
@@ -117,7 +117,7 @@
 					<div itemprop="offers" itemscope itemtype="http://schema.org/Offer" class="content_price1">
 						{if isset($product.show_price) && $product.show_price && !isset($restricted_country_mode)}
                             <span itemprop="price" class="price product-price">
-                                {if $product.price == 0}
+                                {if $product.price == 0 || $product.manufacturer_name == 'DixiCoat'}
                                     Цена по запросу
                                 {else}
                                     {if !$priceDisplay}{convertPrice price=$product.price}{else}{convertPrice price=$product.price_tax_exc}{/if}

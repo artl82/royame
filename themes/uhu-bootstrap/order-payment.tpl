@@ -231,7 +231,8 @@
                                             {if $haveEmptyProductPrices}
                                                 Цена по запросу
                                             {else}
-                                                <span id="total_price">{displayPrice price=$total_price_without_tax}</span>
+                                                {*<span id="total_price">{displayPrice price=$total_price_without_tax}</span>*}
+                                                <span id="total_price">{displayPrice price=$total_price}</span>
                                             {/if}
 										</td>
 									</tr>

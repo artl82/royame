@@ -54,6 +54,7 @@
       text-align: center;
       height: 202px; }
       #subcategories ul li .subcategory-image {
+        display: none;
         padding: 0 0 8px 0; }
         #subcategories ul li .subcategory-image a {
           display: block;

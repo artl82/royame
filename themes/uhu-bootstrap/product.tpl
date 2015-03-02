@@ -155,21 +155,6 @@
 				<label>{l s='Model'} </label>
 				<span class="editable" itemprop="sku">{if !isset($groups)}{$product->reference|escape:'html':'UTF-8'}{/if}</span>
 			</p>
-			{if $product->condition}
-			<p id="product_condition">
-				<label>{l s='Condition'} </label>
-				{if $product->condition == 'new'}
-					<link itemprop="itemCondition" href="http://schema.org/NewCondition"/>
-					<span class="editable">{l s='New'}</span>
-				{elseif $product->condition == 'used'}
-					<link itemprop="itemCondition" href="http://schema.org/UsedCondition"/>
-					<span class="editable">{l s='Used'}</span>
-				{elseif $product->condition == 'refurbished'}
-					<link itemprop="itemCondition" href="http://schema.org/RefurbishedCondition"/>
-					<span class="editable">{l s='Refurbished'}</span>
-				{/if}
-			</p>
-			{/if}
 			{if $product->description_short || $packItems|@count > 0}
 				<div id="short_description_block">
 					{if $product->description_short}
@@ -199,11 +184,11 @@
 			{/if}
 			{if ($display_qties == 1 && !$PS_CATALOG_MODE && $PS_STOCK_MANAGEMENT && $product->available_for_order)}
 				<!-- number of item in stock -->
-				<p id="pQuantityAvailable"{if $product->quantity <= 0} style="display: none;"{/if}>
-					<span id="quantityAvailable">{$product->quantity|intval}</span>
-					<span {if $product->quantity > 1} style="display: none;"{/if} id="quantityAvailableTxt">{l s='Item'}</span>
-					<span {if $product->quantity == 1} style="display: none;"{/if} id="quantityAvailableTxtMultiple">{l s='Items'}</span>
-				</p>
+				{*<p id="pQuantityAvailable"*}{*if $product->quantity <= 0*}{* style="display: none;"*}{*/if*}{*>*}
+					{*<span id="quantityAvailable">{$product->quantity|intval}</span>*}
+					{*<span {if $product->quantity > 1} style="display: none;"{/if} id="quantityAvailableTxt">{l s='Item'}</span>*}
+					{*<span {if $product->quantity == 1} style="display: none;"{/if} id="quantityAvailableTxtMultiple">{l s='Items'}</span>*}
+				{*</p>*}
 			{/if}
 			{if $PS_STOCK_MANAGEMENT}
 				<!-- availability -->

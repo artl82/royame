@@ -66,7 +66,7 @@ class InterkassaRequestModuleFrontController extends ModuleFrontController
             //'ik_baggage_fields' => $ik_baggage_fields,
             'paymentError' => array(
                 'step' => '3',
-                'paymentError' => $this->module->l('Pay by interkassa is failed.', 'interkassa')
+                'paymentError' => $this->module->l('Возникла ошибка оплаты, пожалуйста сообщите нам!', 'interkassa')
             ),
             'statusUrl' => $statusUrl
         ));

@@ -645,7 +645,7 @@ ul.product_list .comments_note { display: none; }
  }
 .top-hr { background: none; height: 0; margin: 0; }
 .pb-left-column #image-block { background: none; }
-.pb-left-column #image-block img { background: none; width: auto; max-height: 446px; }
+.pb-left-column #image-block img { background: none; width: auto; /*max-height: 446px;*/ }
 .pb-left-column #image-block #view_full_size { text-align: center; }
 .pb-left-column #image-block #view_full_size .span_link:hover:after { color: inherit; }
 #thumbs_list li { border: none; }

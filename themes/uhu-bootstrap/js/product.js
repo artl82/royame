@@ -138,7 +138,7 @@ $(document).ready(function(){
 	if (typeof(jqZoomEnabled) != 'undefined' && jqZoomEnabled)
 	{
 		$('.jqzoom').jqzoom({
-			zoomType: 'innerzoom', //innerzoom/standard/reverse/drag
+			zoomType: 'standard', //innerzoom/standard/reverse/drag
 			zoomWidth: 458, //zooming div default width(default width value is 200)
 			zoomHeight: 458, //zooming div default width(default height value is 200)
 			xOffset: 21, //zooming div default offset(default offset value is 10)

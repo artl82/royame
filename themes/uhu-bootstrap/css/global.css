@@ -8041,3 +8041,8 @@ div.star.star_hover:after {
   background-color: #ce1f21; }
   .btn-pinterest:hover i {
     color: white; }
+
+table.razmery td{
+  border: 1px solid;
+  text-align: center;
+  }
